@@ -46,7 +46,9 @@ bp (为了分开不是b40) : 查询b40
 *注 如果想删除自己的数据请联系主人 qq759381653
 石(凯，财，风) 数字/几 :可实时报告或追踪机厅人数
 例：石 5/石 几
-随个朱云杰 / 今天吃什么 / 神秘命令 Eurobot等你使用哦
+随机上/下/中/特级：模拟 Splash 随机段位四首歌
+例: 随机上级
+骂我/ 某地疫情 / 随个朱云杰 / 今天吃什么 / 神秘命令 Eurobot等你使用哦
  ------------------------------------------
 Akatsuki Relax 查分 食用指南：
 !rrc <玩家uid> 最近一次游玩结果（图片）
@@ -54,7 +56,7 @@ Akatsuki Relax 查分 食用指南：
 !todaybp <玩家uid> 今天打出来的bp (1-100)
 以上只用于 osu! Akatsuki 服的 relax 模式！
 made by chiyuki & Europix  主人：深海少女吉安娜
-version 2.0  updated on 2022.1.21'''
+version 2.0  updated on 2022.4.7'''
 
     await help.send(Message([{
         "type": "image",
