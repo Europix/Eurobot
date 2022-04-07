@@ -1,99 +1,88 @@
-# mai bot 使用指南
-
-此 README 提供了最低程度的 mai bot 教程与支持。
-
-## Step 1. 安装 Python
-
-请自行前往 https://www.python.org/ 下载 Python 3 版本（> 3.7）并将其添加到环境变量（在安装过程中勾选 Add Python to system PATH）。对大多数用户来说，您应该下载 Windows installer (64-bit)。
-
-在 Linux 系统上，可能需要其他方法安装 Python 3，请自行查找。
-
-## Step 2. 运行项目
-
-建议使用 git 对此项目进行版本管理。您也可以直接在本界面下载代码的压缩包进行运行。
-
-在运行代码之前，您需要从[此链接](https://www.diving-fish.com/maibot/static.zip)下载资源文件并解压到`src`文件夹中。在此之后，**您需要打开控制台，并切换到该项目所在的目录。**
-在 Windows 10 系统上，您可以直接在项目的根目录（即 bot.py）文件所在的位置按下 Shift + 右键，点击【在此处打开 PowerShell 窗口】。
-如果您使用的是更旧的操作系统（比如 Windows 7），请自行查找关于`Command Prompt`，`Powershell`以及`cd`命令的教程。
-
-之后，在打开的控制台中输入
-```
-python --version
-```
-控制台应该会打印出 Python 的版本。如果提示找不到 `python` 命令，请检查环境变量或干脆重装 Python，**并务必勾选 Add Python to system PATH**。
-
-之后，输入
+## Eurobot 项目食用指南
+依赖于 Nonebot 和 mai-bot 的支持，可以通过
 ```
 pip install -r requirements.txt
 ```
-安装依赖完成后，运行
+安装依赖库，
 ```
 python bot.py
 ```
-运行项目。如果输出如下所示的内容，代表运行成功：
-```
-08-02 11:26:48 [INFO] nonebot | NoneBot is initializing...
-08-02 11:26:48 [INFO] nonebot | Current Env: prod
-08-02 11:26:49 [INFO] nonebot | Succeeded to import "maimaidx"
-08-02 11:26:49 [INFO] nonebot | Succeeded to import "public"
-08-02 11:26:49 [INFO] nonebot | Running NoneBot...
-08-02 11:26:49 [INFO] uvicorn | Started server process [5268]
-08-02 11:26:49 [INFO] uvicorn | Waiting for application startup.
-08-02 11:26:49 [INFO] uvicorn | Application startup complete.
-08-02 11:26:49 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:10219 (Press CTRL+C to quit)
-```
+运行项目。
 
-## Step 3. 连接 CQ-HTTP
+## Eurobot 食用方法
 
-前往 https://github.com/Mrs4s/go-cqhttp > Releases，下载适合自己操作系统的可执行文件。
-go-cqhttp 在初次启动时会询问代理方式，选择反向 websocket 代理即可。
+Eurobot 的功能可以通过 !help 来调出帮助文档:
+现在的 Eurobot 如果需要服务可以联系我:D
 
-之后用任何文本编辑器打开`config.yml`文件，设置反向 ws 地址、上报方式：
-```yml
-message:
-  post-format: array
-  
-servers:
-  - ws-reverse:
-      universal: ws://127.0.0.1:10219/cqhttp/ws
-```
-然后设置您的 QQ 号和密码。您也可以不设置密码，选择扫码登陆的方式。
+#今日运势 
+查看今天的舞萌运势
 
-登陆成功后，后台应该会发送一条类似的信息：
-```
-08-02 11:50:51 [INFO] nonebot | WebSocket Connection from CQHTTP Bot 114514 Accepted!
-```
-至此，您可以和对应的 QQ 号聊天并使用 mai bot 的所有功能了。
+#XXXmaiXXX什么 
+随机一首歌
 
-## FAQ
+#bp (为了分开不是b40)
+查询b40
+例：bp Europix
 
-不是 Windows 系统该怎么办？
-> 请自行查阅其他系统上的 Python 安装方式。cqhttp提供了其他系统的可执行文件，您也可以自行配置 golang module 环境进行编译。
+#随个[dx/标准][绿黄红紫白]<难度>
+随机一首指定条件的乐曲
+例：随个紫12
 
-配置 nonebot 或 cq-http 过程中出错？
-> 请查阅 https://github.com/nonebot/nonebot2 以及 https://github.com/Mrs4s/go-cqhttp 中的文档。
+#查歌<乐曲标题的一部分> 
+查询符合条件的乐曲
+例：(!)查歌 起動音
 
-部分消息发不出来？
-> 被风控了。解决方式：换号或者让这个号保持登陆状态和一定的聊天频率，持续一段时间。
+#[绿黄红紫白]id<歌曲编号>
+查询乐曲信息或谱面信息
+例：紫id220
 
-## 说明
+#<歌曲别名>是什么歌
+查询乐曲别名对应的乐曲
+例：启动音是什么歌
 
-本 bot 提供了如下功能：
+#定数查歌 <定数> 
+查询定数对应的乐曲
+例：(!)定数查歌 12.3
 
-命令 | 功能
---- | ---
-help | 查看帮助文档
-今日舞萌 | 查看今天的舞萌运势
-XXXmaimaiXXX什么 | 随机一首歌
-随个[dx/标准][绿黄红紫白]<难度> | 随机一首指定条件的乐曲
-查歌<乐曲标题的一部分> | 查询符合条件的乐曲
-[绿黄红紫白]id<歌曲编号> | 查询乐曲信息或谱面信息
-<歌曲别名>是什么歌 | 查询乐曲别名对应的乐曲
-定数查歌 <定数> <br> 定数查歌 <定数下限> <定数上限> |  查询定数对应的乐曲
-分数线 <难度+歌曲id> <分数线> | 展示歌曲的分数线
+#分数线 <难度+歌曲id> <分数线>
+例：!分数线 紫id220 100.50
 
-## License
+#!查分 <歌曲id> 
+可查询自己某歌分数 (需要在查分器绑定qq)
+例：!查分 220 / !me 220
 
-MIT
+#分数列表 <等级> （上下限） 
+可以输出某个等级某个范围内的分数列表
+例： !filter 13 （13级的分数列表）
+     !分数列表 13+ 100.0 （13+大于100的分数列表）
+     !分数列表 14 99.90 100.00 （14级位于99.9和鸟之间的分数列表）
+	
+#排行榜 <歌曲id> （难度） 
+可以输出某首歌 紫谱 的排行榜（Eurobot本地）
+例： 排行榜 220 （没有感叹号）
+例： 排行榜 834 白
+*注 排行榜会显示第一名的qq，和自己的分数，若介意可以联系主人删除数据
 
-您可以自由使用本项目的代码用于商业或非商业的用途，但必须附带 MIT 授权协议。
+#!update 更新自己的数据
+例： !update
+*注 如果想删除自己的数据请联系主人 qq759381653
+
+#石(凯，财，风) 数字/几 
+可实时报告或追踪机厅人数
+例：石 5/石 几
+
+#随机上/下/中/特级
+模拟 Splash 随机段位四首歌
+例: 随机上级
+
+# 骂我/ 某地疫情 / 随个朱云杰 / 今天吃什么 / 神秘命令 Eurobot等你使用哦
+ ------------------------------------------
+# Akatsuki Relax 查分 食用指南：
+!rrc <玩家uid> 最近一次游玩结果（图片）
+!rbp <bp多少> <玩家uid> 查询玩家的某个bp （图片）
+!todaybp <玩家uid> 今天打出来的bp (1-100)
+以上只用于 osu! Akatsuki 服的 relax 模式！
+
+made by chiyuki & Europix  主人：深海少女吉安娜
+
+
