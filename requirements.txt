@@ -1,0 +1,4 @@
+aiohttp==3.7.4.post0
+nonebot==1.9.1
+Pillow==8.4.0
+requests==2.24.0
