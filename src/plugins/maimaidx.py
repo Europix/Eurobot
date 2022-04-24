@@ -214,10 +214,10 @@ async def _(bot: Bot, event: Event, state: T_State):
     rand_s = ''
     print (res.groups())
     if res.groups()[0] == "上":
-        music_data = total_list.filter(ds=("13.4", "14.4"))
+        music_data = total_list.filter(ds=(float(13.4), float(14.4)))
         #music_data = total_list.filter(level=random.choice(mid))
         rand_result = song_txt(music_data.random())
-        rand_s = rand_s + '随机段位中级：300血，每首歌回复20血\n'
+        rand_s = rand_s + '随机段位上级：300血，每首歌回复20血\n'
         rand_s = rand_s + 'GREAT -2/ GOOD -2/ MISS -5 \n'
         rand_s = rand_s + '第1首：'+ rand_result
         rand_result = song_txt(music_data.random())
@@ -228,7 +228,7 @@ async def _(bot: Bot, event: Event, state: T_State):
         rand_s = rand_s + '\n第4首：'+ rand_result
         await rand_course.finish(rand_s)
     if res.groups()[0] == "特":
-        music_data = total_list.filter(ds={"14.5","14.9"})
+        music_data = total_list.filter(ds=(float(14.5), float(14.9)))
         rand_s = rand_s + '随机段位超上级：100血，每首歌回复10血\n'
         rand_s = rand_s + 'GREAT -2/ GOOD -3/ MISS -5 \n'
         rand_result = song_txt(music_data.random())
@@ -241,8 +241,8 @@ async def _(bot: Bot, event: Event, state: T_State):
         rand_s = rand_s + '\n第4首：' + rand_result
         await rand_course.finish(rand_s)
     if res.groups()[0] == "中":
-        music_data = total_list.filter(ds={"12.0", "13.3"})
-        rand_s = rand_s + '随机段位中级：500血，每首歌回复30血\n'
+        music_data = total_list.filter(ds=(float(12.0), float(13.3)))
+        rand_s = rand_s + '随机段位中级：500血，每首歌回复50血\n'
         rand_s = rand_s + 'GREAT -2/ GOOD -2/ MISS -5 \n'
         rand_result = song_txt(music_data.random())
         rand_s = rand_s + '第1首：' + rand_result
@@ -511,7 +511,8 @@ async def _(bot: Bot, event: Event, state: T_State):
         if not os.path.exists(Path):
                 Path = f'src/static/mai/cover/31.jpg'
         image = Image.open(Path)
-        image = image.filter(ImageFilter.GaussianBlur(2))# originally 3
+        image = image.resize(size=(400,400))
+        image = image.filter(ImageFilter.GaussianBlur(3))# originally 3
         draw = ImageDraw.Draw(image)
         font = ImageFont.truetype('../simhei.ttf',40)
         font20 = ImageFont.truetype('../msyh.ttc',24)
@@ -530,20 +531,20 @@ async def _(bot: Bot, event: Event, state: T_State):
                     elif(song_list['fc'] == ''):
                         ap = ''
                     fs = fs + f" {level_indexs[song_list['level_index']]}->{song_list['title']}: {'%.4f'%song_list['achievements']}% {ap}\n "
+                    draw.text((40,73),'Basic: ',fill = (0,0,255), font=font20)
                     if song_list['level_index'] == 0 :
-                        draw.text((40,73),'Basic: ',fill = (0,0,255), font=font20)
                         draw.text((170,70),'%.4f'%song_list['achievements'] + '%',fill = (84,255,159), font=font)
+                    draw.text((40,123),'Advanced: ',fill = (0,0,255), font=font20)
                     if song_list['level_index'] == 1 :
-                        draw.text((40,123),'Advanced: ',fill = (0,0,255), font=font20)
                         draw.text((170,120),'%.4f'%song_list['achievements'] + '%',fill = (255,255,0), font=font)
+                    draw.text((40,173),'Expert: ',fill = (0,0,255), font=font20)
                     if song_list['level_index'] == 2 :
-                        draw.text((40,173),'Expert: ',fill = (0,0,255), font=font20)
                         draw.text((170,170),'%.4f'%song_list['achievements'] + '%',fill = (255,0,0), font=font)
+                    draw.text((40,223),'Master: ',fill = (0,0,255), font=font20)
                     if song_list['level_index'] == 3 :
-                        draw.text((40,223),'Master: ',fill = (0,0,255), font=font20)
                         draw.text((170,220),'%.4f'%song_list['achievements'] + '%',fill = (255,0,255), font=font)
+                    draw.text((40,273),'Re:Master: ',fill = (0,0,255), font=font20)
                     if song_list['level_index'] == 4 :
-                        draw.text((40,273),'Re:Master: ',fill = (0,0,255), font=font20)
                         draw.text((170,270),'%.4f'%song_list['achievements'] + '%',fill = (248,248,255), font=font)
                     fs = fs + "\n"
         except Exception:
@@ -579,7 +580,7 @@ async def _(bot: Bot, event: Event, state: T_State):
     level_index = 3
     if len(argvs) != 1:
         level_index = level_labels.index(argvs[1])
-    basedir = r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\json'
+    basedir = r'C:\Users\mercu\Desktop\Eurobot\src\json'
     list = os.listdir(basedir)
     qwq = []
     max = 0
@@ -605,6 +606,7 @@ async def _(bot: Bot, event: Event, state: T_State):
         version14 = 'MiLK PLUS'
         # why?
         version15 = 'maimai FiNALE'
+        version16 = 'maimai でらっくす Splash+'
         ur_qq = event.get_user_id()
         json_data = {'qq': event.get_user_id(),
                      'version': [version0, version1, version2, version3, version4, version5, version6, version7,
@@ -617,10 +619,11 @@ async def _(bot: Bot, event: Event, state: T_State):
         play_data = await resp.json()
     try:
         dest = int(argvs[0])
+        lev = int(argvs[1])
     except Exception:
         name = argvs[0].strip().lower()
         if name not in music_aliases:
-            await leader_board.finish("未找到此歌曲\n可能是已经寄了")
+            await leader_board.finish(f"未找到歌曲{ [name] }\n有没有一种可能是没有这个别名")
             return
         result_set = music_aliases[name]
         if len(result_set) == 1:
@@ -628,6 +631,8 @@ async def _(bot: Bot, event: Event, state: T_State):
             dest = music.id
         else:
             await leader_board.finish("这个别名有很多歌,请用id查询")
+    # print(argvs[0])
+    # print(dest)
     with open(f'src/json/play_data_{ur_qq}.json', 'w', -1, 'utf-8') as f:
         json.dump(play_data, f, ensure_ascii=False, indent=4)
     with open(f'src/json/play_data_{ur_qq}.json', 'r', encoding='utf-8') as ff:
