@@ -23,7 +23,7 @@ def full(mode, bpitem, ID, module):
     global creator
     page = math.ceil(bpitem / 100)
     item = bpitem - (page - 1) * 100 - 1
-
+    sect = time.time()
     if mode == 'Relax':
         var = 1
     else:
@@ -44,12 +44,12 @@ def full(mode, bpitem, ID, module):
     font1 = ImageFont.truetype('akat/arial.ttf', 36)
     font11 = ImageFont.truetype('akat/arial.ttf', 24)
     font12 = ImageFont.truetype('akat/arial.ttf', 12)
-    font2 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\ARLRDBD.ttf', 150)
-    font21 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\ARLRDBD.ttf', 36)
-    font22 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\ARLRDBD.ttf', 24)
-    font3 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\GOTHIC.ttf', 32)
+    font2 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\ARLRDBD.ttf', 150)
+    font21 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\ARLRDBD.ttf', 36)
+    font22 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\ARLRDBD.ttf', 24)
+    font3 = ImageFont.truetype(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\digifaw.ttf", 32)
     # font4=ImageFont.truetype('GOTHIC.ttf',65)
-    font41 = ImageFont.truetype(r'C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\digifaw.ttf', 50)
+    font41 = ImageFont.truetype(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\Torus SemiBold.otf", 50)
     url11 = 'https://assets.ppy.sh/beatmaps/'
     setid = str(scores[item]['beatmap']['beatmapset_id'])
     url12 = '/covers/cover.jpg'
@@ -109,7 +109,8 @@ def full(mode, bpitem, ID, module):
     beatmapid = 'Beatmap ID: ' + str(scores[item]['beatmap']['beatmap_id'])
     player = 'Player: ' + name
     mods = scores[item]['mods']
-
+    sect2 = time.time() - sect
+    
     if rank == 'A':
         draw.text((10, 100), rank, font=font2, fill=(0, 255, 0))
     elif rank == 'B':
@@ -158,19 +159,19 @@ def full(mode, bpitem, ID, module):
 
     comb = [1, 2, 4, 8, 16, 32, 64, 256, 576, 1024, 4096, 16416]
     comc = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    imgdt = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\DT.jpg")
-    imgez = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\EZ.jpg")
-    imgfl = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\FL.jpg")
-    imghd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\HD.jpg")
-    imghr = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\HR.jpg")
-    imght = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\HT.jpg")
-    imgnc = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\NC.jpg")
-    imgso = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\SO.jpg")
-    imgnf = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\NF.png")
-    imgtd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\TD.jpg")
-    imgsd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\SD.png")
-    imgpf = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\PF.png")
-    imgrx = Image.open(r"C:\Users\mercu\Desktop\Eurobot\Eurobot\src\plugins\akat\RX.png")
+    imgdt = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\DT.jpg")
+    imgez = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\EZ.jpg")
+    imgfl = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\FL.jpg")
+    imghd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\HD.jpg")
+    imghr = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\HR.jpg")
+    imght = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\HT.jpg")
+    imgnc = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\NC.jpg")
+    imgso = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\SO.jpg")
+    imgnf = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\NF.png")
+    imgtd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\TD.jpg")
+    imgsd = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\SD.png")
+    imgpf = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\PF.png")
+    imgrx = Image.open(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\RX.png")
     term = 11
     while modsafter > 0:
         if modsafter < comb[term]:
@@ -264,7 +265,9 @@ def full(mode, bpitem, ID, module):
         pass
 
     localtime = time.asctime(time.localtime(time.time()))
+    stime = "ProcTime:" + str(int(sect2*1000)) + 'ms'
     draw.text((740, 280), localtime, font=font12, fill=(255, 255, 255))
+    draw.text((740, 267), stime, font=font12, fill=(255, 255, 255))
     x = int(time.time())
     #image.save(f'{x}.png')
     image.save('result.png')

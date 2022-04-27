@@ -514,8 +514,9 @@ async def _(bot: Bot, event: Event, state: T_State):
         image = image.resize(size=(400,400))
         image = image.filter(ImageFilter.GaussianBlur(3))# originally 3
         draw = ImageDraw.Draw(image)
-        font = ImageFont.truetype('../simhei.ttf',40)
+        font = ImageFont.truetype(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\Torus SemiBold.otf",40)
         font20 = ImageFont.truetype('../msyh.ttc',24)
+        font30 = ImageFont.truetype(r"C:\Users\mercu\Desktop\Eurobot\src\plugins\akat\GOTHIC.ttf",23)
         fs = fs + f"你的 id = {dest} 成绩:\n"
         try:
             for song_list in play_data['verlist']:
@@ -531,21 +532,21 @@ async def _(bot: Bot, event: Event, state: T_State):
                     elif(song_list['fc'] == ''):
                         ap = ''
                     fs = fs + f" {level_indexs[song_list['level_index']]}->{song_list['title']}: {'%.4f'%song_list['achievements']}% {ap}\n "
-                    draw.text((40,73),'Basic: ',fill = (0,0,255), font=font20)
+                    draw.text((40,73),'Basic: ',fill = (0,0,255), font=font30)
                     if song_list['level_index'] == 0 :
-                        draw.text((170,70),'%.4f'%song_list['achievements'] + '%',fill = (84,255,159), font=font)
-                    draw.text((40,123),'Advanced: ',fill = (0,0,255), font=font20)
+                        draw.text((170,62),'%.4f'%song_list['achievements'] + '%',fill = (84,255,159), font=font)
+                    draw.text((40,123),'Advanced: ',fill = (0,0,255), font=font30)
                     if song_list['level_index'] == 1 :
-                        draw.text((170,120),'%.4f'%song_list['achievements'] + '%',fill = (255,255,0), font=font)
-                    draw.text((40,173),'Expert: ',fill = (0,0,255), font=font20)
+                        draw.text((170,112),'%.4f'%song_list['achievements'] + '%',fill = (255,255,0), font=font)
+                    draw.text((40,173),'Expert: ',fill = (0,0,255), font=font30)
                     if song_list['level_index'] == 2 :
-                        draw.text((170,170),'%.4f'%song_list['achievements'] + '%',fill = (255,0,0), font=font)
-                    draw.text((40,223),'Master: ',fill = (0,0,255), font=font20)
+                        draw.text((170,162),'%.4f'%song_list['achievements'] + '%',fill = (255,0,0), font=font)
+                    draw.text((40,223),'Master: ',fill = (0,0,255), font=font30)
                     if song_list['level_index'] == 3 :
-                        draw.text((170,220),'%.4f'%song_list['achievements'] + '%',fill = (255,0,255), font=font)
-                    draw.text((40,273),'Re:Master: ',fill = (0,0,255), font=font20)
+                        draw.text((170,212),'%.4f'%song_list['achievements'] + '%',fill = (255,0,255), font=font)
+                    draw.text((40,273),'Re:Master: ',fill = (0,0,255), font=font30)
                     if song_list['level_index'] == 4 :
-                        draw.text((170,270),'%.4f'%song_list['achievements'] + '%',fill = (248,248,255), font=font)
+                        draw.text((170,262),'%.4f'%song_list['achievements'] + '%',fill = (248,248,255), font=font)
                     fs = fs + "\n"
         except Exception:
             await myscore.finish("未获取到玩家数据捏\n请在查分器绑定qq后再查分哦")

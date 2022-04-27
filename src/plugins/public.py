@@ -197,9 +197,9 @@ def getAvBvFromShortLink(link):
 
 
 def getAvBvFromMsg(msg):
-    search = getAvBvFromNormalLink(msg)
-    if len(search) > 0:
-        return search
+    # search = getAvBvFromNormalLink(msg)
+    # if len(search) > 0:
+    #    return search
     search = re.findall(r'b23\.tv\/[a-zA-Z0-9]+', msg)
     if len(search) > 0:
         return getAvBvFromShortLink(f'http://{search[0]}')
@@ -226,11 +226,13 @@ async def _(bot: Bot, event: Event, state: T_State):
     msg = str(event.message)
     msg = unescape(msg)
     title = None
+    is_pro = 0
     is_match = re.findall(r'\[CQ:rich,.*\]?\S*', msg)
     keyword1 = '&#91;QQ小程序&#93;哔哩哔哩'
     keyword2 = '[[QQ小程序]哔哩哔哩]'
     if len(is_match) > 0:
         if match_msg(keyword1, msg) == True or match_msg(keyword2, msg) == True:
+            is_pro = 1
             search = re.findall(r'"desc":"(.+?)"', msg)
             if len(search) > 0:
                 title = re.sub(r'/\\"/g', '"', search[1])

@@ -1041,6 +1041,96 @@
             "type": "DX"
         },
         {
+            "achievements": 99.8394,
+            "fc": "",
+            "fs": "",
+            "id": 11202,
+            "level": "13",
+            "level_index": 3,
+            "title": "物凄いヴァイブスで魔理沙が物凄いラップ",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.1486,
+            "fc": "",
+            "fs": "",
+            "id": 11209,
+            "level": "14",
+            "level_index": 3,
+            "title": "Grievous Lady",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.5089,
+            "fc": "fc",
+            "fs": "",
+            "id": 11208,
+            "level": "13",
+            "level_index": 3,
+            "title": "Cyaegha",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.0906,
+            "fc": "",
+            "fs": "",
+            "id": 11222,
+            "level": "14+",
+            "level_index": 3,
+            "title": "BREaK! BREaK! BREaK!",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6527,
+            "fc": "",
+            "fs": "",
+            "id": 11166,
+            "level": "14",
+            "level_index": 3,
+            "title": "ワンダーシャッフェンの法則",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.482,
+            "fc": "fc",
+            "fs": "",
+            "id": 11167,
+            "level": "14",
+            "level_index": 3,
+            "title": "BIRTH",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5566,
+            "fc": "",
+            "fs": "",
+            "id": 11165,
+            "level": "14+",
+            "level_index": 3,
+            "title": "Regulus",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.2344,
+            "fc": "",
+            "fs": "",
+            "id": 11173,
+            "level": "13",
+            "level_index": 3,
+            "title": "トリドリ⇒モリモリ！Lovely fruits☆",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.1727,
+            "fc": "",
+            "fs": "",
+            "id": 11174,
+            "level": "14",
+            "level_index": 3,
+            "title": "Desperado Waltz",
+            "type": "DX"
+        },
+        {
             "achievements": 99.2552,
             "fc": "",
             "fs": "",
@@ -1641,7 +1731,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.132,
+            "achievements": 98.6666,
             "fc": "",
             "fs": "",
             "id": 11026,
@@ -5531,6 +5621,46 @@
             "type": "SD"
         },
         {
+            "achievements": 101.0,
+            "fc": "app",
+            "fs": "",
+            "id": 383,
+            "level": "5",
+            "level_index": 0,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 101.0,
+            "fc": "app",
+            "fs": "",
+            "id": 383,
+            "level": "7",
+            "level_index": 1,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.9687,
+            "fc": "ap",
+            "fs": "fsdp",
+            "id": 383,
+            "level": "9+",
+            "level_index": 2,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.0578,
+            "fc": "",
+            "fs": "",
+            "id": 383,
+            "level": "11+",
+            "level_index": 3,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
             "achievements": 100.3004,
             "fc": "",
             "fs": "",
@@ -5711,7 +5841,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.6905,
+            "achievements": 99.3278,
             "fc": "",
             "fs": "",
             "id": 422,

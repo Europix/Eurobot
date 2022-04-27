@@ -1291,7 +1291,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.5231,
+            "achievements": 99.8583,
             "fc": "",
             "fs": "",
             "id": 11212,
@@ -1371,7 +1371,7 @@
             "type": "DX"
         },
         {
-            "achievements": 95.3239,
+            "achievements": 96.401,
             "fc": "",
             "fs": "",
             "id": 11089,
@@ -1411,7 +1411,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.6446,
+            "achievements": 99.0097,
             "fc": "",
             "fs": "",
             "id": 11204,
@@ -1441,7 +1441,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.2543,
+            "achievements": 98.8863,
             "fc": "",
             "fs": "",
             "id": 11166,
@@ -1468,6 +1468,36 @@
             "level": "12+",
             "level_index": 3,
             "title": "ポケットからぬりつぶせ！",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.6425,
+            "fc": "",
+            "fs": "",
+            "id": 11147,
+            "level": "7+",
+            "level_index": 1,
+            "title": "Saika",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.6239,
+            "fc": "",
+            "fs": "",
+            "id": 11209,
+            "level": "14",
+            "level_index": 3,
+            "title": "Grievous Lady",
+            "type": "DX"
+        },
+        {
+            "achievements": 94.918,
+            "fc": "",
+            "fs": "",
+            "id": 11222,
+            "level": "14+",
+            "level_index": 3,
+            "title": "BREaK! BREaK! BREaK!",
             "type": "DX"
         },
         {
@@ -4101,7 +4131,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.2271,
+            "achievements": 98.6321,
             "fc": "",
             "fs": "",
             "id": 227,
@@ -4871,7 +4901,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.4611,
+            "achievements": 98.9722,
             "fc": "",
             "fs": "",
             "id": 389,
@@ -5511,7 +5541,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.4068,
+            "achievements": 100.0334,
             "fc": "",
             "fs": "",
             "id": 465,
@@ -8091,7 +8121,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.156,
+            "achievements": 96.5886,
             "fc": "",
             "fs": "",
             "id": 757,
@@ -8781,7 +8811,7 @@
             "type": "SD"
         },
         {
-            "achievements": 94.7686,
+            "achievements": 95.3173,
             "fc": "",
             "fs": "",
             "id": 812,

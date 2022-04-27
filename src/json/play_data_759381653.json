@@ -1511,7 +1511,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.3932,
+            "achievements": 99.5831,
             "fc": "",
             "fs": "",
             "id": 11222,
@@ -1531,7 +1531,7 @@
             "type": "DX"
         },
         {
-            "achievements": 96.6112,
+            "achievements": 97.5899,
             "fc": "",
             "fs": "",
             "id": 11165,
@@ -1541,7 +1541,7 @@
             "type": "DX"
         },
         {
-            "achievements": 96.8413,
+            "achievements": 98.9257,
             "fc": "",
             "fs": "",
             "id": 11174,
@@ -1571,13 +1571,23 @@
             "type": "DX"
         },
         {
-            "achievements": 97.2984,
+            "achievements": 99.2582,
             "fc": "",
             "fs": "",
             "id": 11167,
             "level": "14",
             "level_index": 3,
             "title": "BIRTH",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.3447,
+            "fc": "",
+            "fs": "",
+            "id": 11208,
+            "level": "13",
+            "level_index": 3,
+            "title": "Cyaegha",
             "type": "DX"
         },
         {
@@ -2611,7 +2621,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5039,
+            "achievements": 100.555,
             "fc": "fc",
             "fs": "",
             "id": 11064,
@@ -4971,7 +4981,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.7337,
+            "achievements": 100.0176,
             "fc": "",
             "fs": "",
             "id": 227,
@@ -11741,8 +11751,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.2892,
-            "fc": "",
+            "achievements": 100.5501,
+            "fc": "fc",
             "fs": "",
             "id": 849,
             "level": "12+",
