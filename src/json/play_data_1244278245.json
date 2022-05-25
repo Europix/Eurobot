@@ -701,7 +701,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5304,
+            "achievements": 100.8669,
             "fc": "fc",
             "fs": "",
             "id": 11107,
@@ -891,9 +891,9 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5406,
-            "fc": "fc",
-            "fs": "fsp",
+            "achievements": 100.9687,
+            "fc": "ap",
+            "fs": "fsd",
             "id": 11147,
             "level": "12+",
             "level_index": 3,
@@ -961,7 +961,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.1599,
+            "achievements": 100.5167,
             "fc": "",
             "fs": "",
             "id": 11105,
@@ -1141,7 +1141,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.3927,
+            "achievements": 100.609,
             "fc": "",
             "fs": "",
             "id": 11098,
@@ -1201,7 +1201,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.3486,
+            "achievements": 99.8731,
             "fc": "",
             "fs": "",
             "id": 11149,
@@ -1371,7 +1371,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.781,
+            "achievements": 100.2222,
             "fc": "",
             "fs": "",
             "id": 11160,
@@ -1651,7 +1651,7 @@
             "type": "DX"
         },
         {
-            "achievements": 95.2528,
+            "achievements": 97.0845,
             "fc": "",
             "fs": "",
             "id": 11103,
@@ -1681,8 +1681,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5233,
-            "fc": "",
+            "achievements": 100.5339,
+            "fc": "fc",
             "fs": "",
             "id": 11212,
             "level": "13+",
@@ -1741,7 +1741,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.5634,
+            "achievements": 100.0362,
             "fc": "",
             "fs": "",
             "id": 11176,
@@ -1751,7 +1751,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.9784,
+            "achievements": 100.1718,
             "fc": "",
             "fs": "",
             "id": 11210,
@@ -1761,7 +1761,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.351,
+            "achievements": 100.2105,
             "fc": "",
             "fs": "",
             "id": 11206,
@@ -1781,7 +1781,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.5812,
+            "achievements": 100.0355,
             "fc": "",
             "fs": "",
             "id": 11171,
@@ -1821,8 +1821,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.4079,
-            "fc": "",
+            "achievements": 100.7421,
+            "fc": "fc",
             "fs": "",
             "id": 11184,
             "level": "12+",
@@ -1831,7 +1831,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.2012,
+            "achievements": 100.4154,
             "fc": "",
             "fs": "",
             "id": 11202,
@@ -1841,7 +1841,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.3394,
+            "achievements": 100.4648,
             "fc": "fc",
             "fs": "fsp",
             "id": 11204,
@@ -1851,7 +1851,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.1456,
+            "achievements": 99.6062,
             "fc": "",
             "fs": "",
             "id": 11209,
@@ -1861,7 +1861,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.4014,
+            "achievements": 99.6161,
             "fc": "",
             "fs": "",
             "id": 11207,
@@ -1891,7 +1891,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.392,
+            "achievements": 99.5434,
             "fc": "",
             "fs": "",
             "id": 11167,
@@ -1911,7 +1911,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.7533,
+            "achievements": 100.4765,
             "fc": "",
             "fs": "",
             "id": 11173,
@@ -1921,13 +1921,33 @@
             "type": "DX"
         },
         {
-            "achievements": 99.0489,
+            "achievements": 99.5075,
             "fc": "",
             "fs": "",
             "id": 11174,
             "level": "14",
             "level_index": 3,
             "title": "Desperado Waltz",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.5426,
+            "fc": "",
+            "fs": "",
+            "id": 11222,
+            "level": "14+",
+            "level_index": 3,
+            "title": "BREaK! BREaK! BREaK!",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.7207,
+            "fc": "",
+            "fs": "",
+            "id": 11155,
+            "level": "14",
+            "level_index": 3,
+            "title": "ARAIS",
             "type": "DX"
         },
         {
@@ -2611,7 +2631,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.0601,
+            "achievements": 100.2422,
             "fc": "",
             "fs": "",
             "id": 11060,
@@ -2721,7 +2741,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.4155,
+            "achievements": 100.6335,
             "fc": "fc",
             "fs": "",
             "id": 11031,
@@ -3001,8 +3021,8 @@
             "type": "DX"
         },
         {
-            "achievements": 99.6992,
-            "fc": "",
+            "achievements": 100.9362,
+            "fc": "fcp",
             "fs": "",
             "id": 11086,
             "level": "11+",
@@ -3181,8 +3201,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.0279,
-            "fc": "",
+            "achievements": 100.6363,
+            "fc": "fc",
             "fs": "",
             "id": 11025,
             "level": "13+",
@@ -3471,8 +3491,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.657,
-            "fc": "fc",
+            "achievements": 100.8871,
+            "fc": "fcp",
             "fs": "",
             "id": 11014,
             "level": "13",
@@ -3581,8 +3601,8 @@
             "type": "DX"
         },
         {
-            "achievements": 99.6452,
-            "fc": "",
+            "achievements": 100.5416,
+            "fc": "fc",
             "fs": "",
             "id": 11018,
             "level": "13",
@@ -3601,7 +3621,7 @@
             "type": "DX"
         },
         {
-            "achievements": 90.6239,
+            "achievements": 95.6923,
             "fc": "",
             "fs": "",
             "id": 11026,
@@ -3731,7 +3751,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.9579,
+            "achievements": 100.0021,
             "fc": "",
             "fs": "",
             "id": 11020,
@@ -3781,7 +3801,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.3891,
+            "achievements": 99.8453,
             "fc": "",
             "fs": "",
             "id": 11028,
@@ -3791,7 +3811,7 @@
             "type": "DX"
         },
         {
-            "achievements": 97.5239,
+            "achievements": 98.7486,
             "fc": "",
             "fs": "",
             "id": 11029,
@@ -3801,7 +3821,7 @@
             "type": "DX"
         },
         {
-            "achievements": 94.6791,
+            "achievements": 97.276,
             "fc": "",
             "fs": "",
             "id": 11027,
@@ -3861,7 +3881,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.9358,
+            "achievements": 99.4865,
             "fc": "",
             "fs": "",
             "id": 11023,
@@ -3871,13 +3891,23 @@
             "type": "DX"
         },
         {
-            "achievements": 98.4929,
+            "achievements": 98.528,
             "fc": "",
             "fs": "",
             "id": 11093,
             "level": "14",
             "level_index": 3,
             "title": "UniTas",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.348,
+            "fc": "",
+            "fs": "",
+            "id": 11005,
+            "level": "13",
+            "level_index": 3,
+            "title": "バーチャルダム　ネーション",
             "type": "DX"
         },
         {
@@ -4511,7 +4541,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.9828,
+            "achievements": 99.7232,
             "fc": "",
             "fs": "",
             "id": 107,
@@ -4601,7 +4631,7 @@
             "type": "SD"
         },
         {
-            "achievements": 91.0961,
+            "achievements": 97.5046,
             "fc": "",
             "fs": "",
             "id": 143,
@@ -5181,7 +5211,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.9432,
+            "achievements": 99.9888,
             "fc": "",
             "fs": "",
             "id": 204,
@@ -5261,7 +5291,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.2161,
+            "achievements": 99.2546,
             "fc": "",
             "fs": "",
             "id": 200,
@@ -5291,8 +5321,8 @@
             "type": "SD"
         },
         {
-            "achievements": 99.355,
-            "fc": "",
+            "achievements": 100.48,
+            "fc": "fc",
             "fs": "",
             "id": 205,
             "level": "12+",
@@ -5341,7 +5371,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.6735,
+            "achievements": 99.0089,
             "fc": "",
             "fs": "",
             "id": 227,
@@ -5531,7 +5561,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.4696,
+            "achievements": 97.9677,
             "fc": "",
             "fs": "",
             "id": 191,
@@ -5661,7 +5691,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.5603,
+            "achievements": 96.9023,
             "fc": "",
             "fs": "",
             "id": 204,
@@ -5688,6 +5718,26 @@
             "level": "13+",
             "level_index": 3,
             "title": "Beat of getting entangled",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.0903,
+            "fc": "",
+            "fs": "",
+            "id": 239,
+            "level": "14",
+            "level_index": 3,
+            "title": "System “Z”",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3702,
+            "fc": "",
+            "fs": "",
+            "id": 265,
+            "level": "12",
+            "level_index": 4,
+            "title": "Save This World νMIX",
             "type": "SD"
         },
         {
@@ -5891,8 +5941,8 @@
             "type": "SD"
         },
         {
-            "achievements": 98.564,
-            "fc": "",
+            "achievements": 100.5331,
+            "fc": "fc",
             "fs": "",
             "id": 230,
             "level": "13",
@@ -5941,7 +5991,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.0113,
+            "achievements": 100.1507,
             "fc": "",
             "fs": "",
             "id": 324,
@@ -5951,7 +6001,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.1021,
+            "achievements": 100.1942,
             "fc": "",
             "fs": "",
             "id": 319,
@@ -6031,7 +6081,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.3206,
+            "achievements": 99.9492,
             "fc": "",
             "fs": "",
             "id": 225,
@@ -6091,7 +6141,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.9323,
+            "achievements": 99.1696,
             "fc": "",
             "fs": "",
             "id": 235,
@@ -6161,8 +6211,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.7395,
-            "fc": "fcp",
+            "achievements": 100.9831,
+            "fc": "ap",
             "fs": "",
             "id": 321,
             "level": "11",
@@ -6281,7 +6331,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.9934,
+            "achievements": 99.4297,
             "fc": "",
             "fs": "",
             "id": 339,
@@ -6371,7 +6421,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.3646,
+            "achievements": 99.5176,
             "fc": "",
             "fs": "",
             "id": 233,
@@ -6381,7 +6431,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.9832,
+            "achievements": 98.4084,
             "fc": "",
             "fs": "",
             "id": 301,
@@ -6398,6 +6448,16 @@
             "level": "13",
             "level_index": 4,
             "title": "Danza zandA",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.0984,
+            "fc": "",
+            "fs": "",
+            "id": 347,
+            "level": "13+",
+            "level_index": 3,
+            "title": "電車で電車でOPA!OPA!OPA! -GMT mashup-",
             "type": "SD"
         },
         {
@@ -6611,7 +6671,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.4313,
+            "achievements": 99.9918,
             "fc": "fc",
             "fs": "",
             "id": 295,
@@ -6631,7 +6691,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.2962,
+            "achievements": 98.1304,
             "fc": "",
             "fs": "",
             "id": 387,
@@ -6641,8 +6701,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.0059,
-            "fc": "",
+            "achievements": 100.2731,
+            "fc": "fc",
             "fs": "",
             "id": 388,
             "level": "14",
@@ -6971,7 +7031,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.523,
+            "achievements": 96.7382,
             "fc": "",
             "fs": "",
             "id": 384,
@@ -7181,7 +7241,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.3678,
+            "achievements": 98.9058,
             "fc": "",
             "fs": "",
             "id": 363,
@@ -7261,7 +7321,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.9775,
+            "achievements": 98.9954,
             "fc": "",
             "fs": "",
             "id": 364,
@@ -7371,7 +7431,7 @@
             "type": "SD"
         },
         {
-            "achievements": 95.5961,
+            "achievements": 96.7764,
             "fc": "",
             "fs": "",
             "id": 365,
@@ -7551,7 +7611,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.4074,
+            "achievements": 98.572,
             "fc": "",
             "fs": "",
             "id": 348,
@@ -7571,7 +7631,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.6552,
+            "achievements": 97.7665,
             "fc": "",
             "fs": "",
             "id": 365,
@@ -7741,7 +7801,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4549,
+            "achievements": 100.5344,
             "fc": "",
             "fs": "",
             "id": 448,
@@ -7771,7 +7831,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.3386,
+            "achievements": 100.6237,
             "fc": "fcp",
             "fs": "fsp",
             "id": 424,
@@ -8001,7 +8061,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.8957,
+            "achievements": 100.1141,
             "fc": "fc",
             "fs": "",
             "id": 459,
@@ -8181,7 +8241,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.1917,
+            "achievements": 98.4558,
             "fc": "",
             "fs": "",
             "id": 462,
@@ -8311,7 +8371,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.5271,
+            "achievements": 99.6279,
             "fc": "",
             "fs": "",
             "id": 520,
@@ -8441,7 +8501,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.8554,
+            "achievements": 99.4482,
             "fc": "",
             "fs": "",
             "id": 431,
@@ -8511,7 +8571,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.181,
+            "achievements": 100.3289,
             "fc": "",
             "fs": "",
             "id": 467,
@@ -8718,6 +8778,16 @@
             "level": "13+",
             "level_index": 3,
             "title": "METATRON",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5213,
+            "fc": "",
+            "fs": "",
+            "id": 531,
+            "level": "14",
+            "level_index": 3,
+            "title": "Prophesy One",
             "type": "SD"
         },
         {
@@ -8981,7 +9051,7 @@
             "type": "SD"
         },
         {
-            "achievements": 95.2287,
+            "achievements": 99.5921,
             "fc": "",
             "fs": "",
             "id": 535,
@@ -9091,7 +9161,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.4032,
+            "achievements": 98.4666,
             "fc": "",
             "fs": "",
             "id": 567,
@@ -9111,7 +9181,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.2353,
+            "achievements": 98.9848,
             "fc": "",
             "fs": "",
             "id": 573,
@@ -9181,7 +9251,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.7841,
+            "achievements": 100.0514,
             "fc": "",
             "fs": "",
             "id": 556,
@@ -9221,7 +9291,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.9421,
+            "achievements": 98.7964,
             "fc": "",
             "fs": "",
             "id": 568,
@@ -9261,7 +9331,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.7028,
+            "achievements": 99.9177,
             "fc": "",
             "fs": "",
             "id": 548,
@@ -9371,9 +9441,9 @@
             "type": "SD"
         },
         {
-            "achievements": 99.3143,
-            "fc": "",
-            "fs": "",
+            "achievements": 100.4842,
+            "fc": "fcp",
+            "fs": "fsp",
             "id": 592,
             "level": "13+",
             "level_index": 3,
@@ -9391,7 +9461,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.7175,
+            "achievements": 99.5707,
             "fc": "",
             "fs": "",
             "id": 566,
@@ -9498,6 +9568,26 @@
             "level": "14",
             "level_index": 3,
             "title": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.1146,
+            "fc": "",
+            "fs": "",
+            "id": 589,
+            "level": "14",
+            "level_index": 3,
+            "title": "Panopticon",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.8553,
+            "fc": "",
+            "fs": "",
+            "id": 589,
+            "level": "14",
+            "level_index": 4,
+            "title": "Panopticon",
             "type": "SD"
         },
         {
@@ -9641,8 +9731,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.1151,
-            "fc": "",
+            "achievements": 100.7726,
+            "fc": "fc",
             "fs": "",
             "id": 637,
             "level": "11+",
@@ -9711,7 +9801,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.0572,
+            "achievements": 99.0769,
             "fc": "",
             "fs": "",
             "id": 631,
@@ -9741,7 +9831,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.8862,
+            "achievements": 99.7246,
             "fc": "",
             "fs": "",
             "id": 432,
@@ -10001,7 +10091,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.8389,
+            "achievements": 99.5836,
             "fc": "",
             "fs": "",
             "id": 666,
@@ -10781,7 +10871,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.6536,
+            "achievements": 99.9083,
             "fc": "",
             "fs": "",
             "id": 705,
@@ -10831,7 +10921,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.0483,
+            "achievements": 99.8768,
             "fc": "",
             "fs": "",
             "id": 688,
@@ -10871,7 +10961,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.2623,
+            "achievements": 98.9458,
             "fc": "",
             "fs": "",
             "id": 719,
@@ -10901,8 +10991,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4216,
-            "fc": "",
+            "achievements": 100.7468,
+            "fc": "fc",
             "fs": "",
             "id": 699,
             "level": "12",
@@ -10961,8 +11051,8 @@
             "type": "SD"
         },
         {
-            "achievements": 97.6649,
-            "fc": "",
+            "achievements": 100.7629,
+            "fc": "fcp",
             "fs": "",
             "id": 709,
             "level": "12+",
@@ -11101,7 +11191,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.1412,
+            "achievements": 100.2386,
             "fc": "fc",
             "fs": "",
             "id": 723,
@@ -11741,7 +11831,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4902,
+            "achievements": 100.5291,
             "fc": "",
             "fs": "",
             "id": 772,
@@ -11781,8 +11871,8 @@
             "type": "SD"
         },
         {
-            "achievements": 99.6211,
-            "fc": "",
+            "achievements": 100.4483,
+            "fc": "fc",
             "fs": "",
             "id": 734,
             "level": "13+",
@@ -11831,7 +11921,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.754,
+            "achievements": 100.2266,
             "fc": "fc",
             "fs": "fs",
             "id": 786,
@@ -11861,7 +11951,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.3297,
+            "achievements": 99.2922,
             "fc": "",
             "fs": "",
             "id": 757,
@@ -11871,7 +11961,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.1621,
+            "achievements": 99.6634,
             "fc": "",
             "fs": "",
             "id": 756,
@@ -11891,7 +11981,7 @@
             "type": "SD"
         },
         {
-            "achievements": 97.8652,
+            "achievements": 100.2307,
             "fc": "",
             "fs": "",
             "id": 759,
@@ -11911,7 +12001,7 @@
             "type": "SD"
         },
         {
-            "achievements": 94.2419,
+            "achievements": 98.4663,
             "fc": "",
             "fs": "",
             "id": 777,
@@ -11961,7 +12051,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.3944,
+            "achievements": 100.6689,
             "fc": "fcp",
             "fs": "",
             "id": 741,
@@ -12381,7 +12471,7 @@
             "type": "SD"
         },
         {
-            "achievements": 94.7494,
+            "achievements": 97.8667,
             "fc": "",
             "fs": "",
             "id": 779,
@@ -12411,7 +12501,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.704,
+            "achievements": 97.7195,
             "fc": "",
             "fs": "",
             "id": 760,
@@ -12731,7 +12821,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.7698,
+            "achievements": 100.0497,
             "fc": "",
             "fs": "",
             "id": 797,
@@ -13001,7 +13091,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.1439,
+            "achievements": 100.0346,
             "fc": "",
             "fs": "",
             "id": 838,
@@ -13031,8 +13121,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.447,
-            "fc": "",
+            "achievements": 100.6325,
+            "fc": "fc",
             "fs": "",
             "id": 823,
             "level": "13+",
@@ -13241,8 +13331,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.2996,
-            "fc": "",
+            "achievements": 100.4704,
+            "fc": "fc",
             "fs": "",
             "id": 839,
             "level": "13+",
@@ -13261,7 +13351,7 @@
             "type": "SD"
         },
         {
-            "achievements": 91.8967,
+            "achievements": 95.5851,
             "fc": "",
             "fs": "",
             "id": 834,
@@ -13571,7 +13661,7 @@
             "type": "SD"
         },
         {
-            "achievements": 95.5333,
+            "achievements": 97.1017,
             "fc": "",
             "fs": "",
             "id": 820,
@@ -13631,7 +13721,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.2288,
+            "achievements": 98.7202,
             "fc": "",
             "fs": "",
             "id": 796,
@@ -13641,7 +13731,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.9817,
+            "achievements": 98.3343,
             "fc": "",
             "fs": "",
             "id": 812,
@@ -13651,7 +13741,7 @@
             "type": "SD"
         },
         {
-            "achievements": 96.2323,
+            "achievements": 98.7047,
             "fc": "",
             "fs": "",
             "id": 852,
@@ -13661,7 +13751,7 @@
             "type": "SD"
         },
         {
-            "achievements": 95.0129,
+            "achievements": 95.0235,
             "fc": "",
             "fs": "",
             "id": 833,

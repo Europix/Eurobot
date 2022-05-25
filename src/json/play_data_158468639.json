@@ -741,7 +741,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5217,
+            "achievements": 100.5613,
             "fc": "fc",
             "fs": "fs",
             "id": 11149,
@@ -931,7 +931,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.3293,
+            "achievements": 100.5325,
             "fc": "",
             "fs": "",
             "id": 11103,
@@ -1108,6 +1108,226 @@
             "level": "12+",
             "level_index": 4,
             "title": "コネクト",
+            "type": "DX"
+        },
+        {
+            "achievements": 10.0362,
+            "fc": "",
+            "fs": "",
+            "id": 11219,
+            "level": "3",
+            "level_index": 0,
+            "title": "Prismatic",
+            "type": "DX"
+        },
+        {
+            "achievements": 0.0,
+            "fc": "",
+            "fs": "",
+            "id": 11103,
+            "level": "4",
+            "level_index": 0,
+            "title": "渦状銀河のシンフォニエッタ",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.9501,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 11209,
+            "level": "12",
+            "level_index": 2,
+            "title": "Grievous Lady",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.4911,
+            "fc": "fc",
+            "fs": "",
+            "id": 11207,
+            "level": "10+",
+            "level_index": 2,
+            "title": "Ether Strike",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.8976,
+            "fc": "fcp",
+            "fs": "",
+            "id": 11222,
+            "level": "12+",
+            "level_index": 2,
+            "title": "BREaK! BREaK! BREaK!",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6862,
+            "fc": "fc",
+            "fs": "",
+            "id": 11167,
+            "level": "12+",
+            "level_index": 2,
+            "title": "BIRTH",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.8066,
+            "fc": "fc",
+            "fs": "",
+            "id": 11165,
+            "level": "12",
+            "level_index": 2,
+            "title": "Regulus",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.086,
+            "fc": "",
+            "fs": "",
+            "id": 11174,
+            "level": "11+",
+            "level_index": 2,
+            "title": "Desperado Waltz",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.5241,
+            "fc": "",
+            "fs": "",
+            "id": 11194,
+            "level": "12",
+            "level_index": 3,
+            "title": "ベノム",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.4338,
+            "fc": "",
+            "fs": "",
+            "id": 11202,
+            "level": "13",
+            "level_index": 3,
+            "title": "物凄いヴァイブスで魔理沙が物凄いラップ",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.7749,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 11204,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Sweet Requiem",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.4694,
+            "fc": "",
+            "fs": "",
+            "id": 11205,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Dive into The Sky ～initialized～",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6273,
+            "fc": "fcp",
+            "fs": "",
+            "id": 11209,
+            "level": "14",
+            "level_index": 3,
+            "title": "Grievous Lady",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6121,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 11207,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Ether Strike",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.7553,
+            "fc": "fcp",
+            "fs": "",
+            "id": 11208,
+            "level": "13",
+            "level_index": 3,
+            "title": "Cyaegha",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.4235,
+            "fc": "fc",
+            "fs": "",
+            "id": 11222,
+            "level": "14+",
+            "level_index": 3,
+            "title": "BREaK! BREaK! BREaK!",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.5897,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 11166,
+            "level": "14",
+            "level_index": 3,
+            "title": "ワンダーシャッフェンの法則",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.691,
+            "fc": "fc",
+            "fs": "",
+            "id": 11167,
+            "level": "14",
+            "level_index": 3,
+            "title": "BIRTH",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.7747,
+            "fc": "",
+            "fs": "",
+            "id": 11165,
+            "level": "14+",
+            "level_index": 3,
+            "title": "Regulus",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.7063,
+            "fc": "fc",
+            "fs": "",
+            "id": 11174,
+            "level": "14",
+            "level_index": 3,
+            "title": "Desperado Waltz",
+            "type": "DX"
+        },
+        {
+            "achievements": 0.0,
+            "fc": "",
+            "fs": "",
+            "id": 11167,
+            "level": "5",
+            "level_index": 0,
+            "title": "BIRTH",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6788,
+            "fc": "fc",
+            "fs": "",
+            "id": 11171,
+            "level": "12",
+            "level_index": 2,
+            "title": "YURUSHITE",
             "type": "DX"
         },
         {
@@ -1561,8 +1781,8 @@
             "type": "DX"
         },
         {
-            "achievements": 99.7539,
-            "fc": "",
+            "achievements": 100.95,
+            "fc": "ap",
             "fs": "",
             "id": 10363,
             "level": "11",
@@ -1641,7 +1861,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.7446,
+            "achievements": 100.906,
             "fc": "fcp",
             "fs": "",
             "id": 11028,
@@ -1731,7 +1951,7 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5552,
+            "achievements": 100.6787,
             "fc": "fcp",
             "fs": "fsp",
             "id": 11078,
@@ -1853,7 +2073,7 @@
         {
             "achievements": 100.8786,
             "fc": "fcp",
-            "fs": "",
+            "fs": "fs",
             "id": 10191,
             "level": "12+",
             "level_index": 3,
@@ -1982,7 +2202,7 @@
         },
         {
             "achievements": 100.882,
-            "fc": "fc",
+            "fc": "fcp",
             "fs": "fsp",
             "id": 11048,
             "level": "13",
@@ -2281,7 +2501,7 @@
             "type": "DX"
         },
         {
-            "achievements": 99.4295,
+            "achievements": 99.9095,
             "fc": "",
             "fs": "",
             "id": 11026,
@@ -2311,8 +2531,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.8584,
-            "fc": "fcp",
+            "achievements": 100.9494,
+            "fc": "ap",
             "fs": "",
             "id": 10363,
             "level": "13",
@@ -2511,6 +2731,36 @@
             "type": "DX"
         },
         {
+            "achievements": 98.3311,
+            "fc": "",
+            "fs": "",
+            "id": 11086,
+            "level": "9",
+            "level_index": 2,
+            "title": "だれかの心臓になれたなら",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.9,
+            "fc": "ap",
+            "fs": "",
+            "id": 10363,
+            "level": "5",
+            "level_index": 0,
+            "title": "Oshama Scramble!",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.9705,
+            "fc": "ap",
+            "fs": "",
+            "id": 10363,
+            "level": "8+",
+            "level_index": 1,
+            "title": "Oshama Scramble!",
+            "type": "DX"
+        },
+        {
             "achievements": 96.4496,
             "fc": "",
             "fs": "",
@@ -2671,7 +2921,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.9007,
+            "achievements": 100.9424,
             "fc": "ap",
             "fs": "fsp",
             "id": 17,
@@ -2721,8 +2971,8 @@
             "type": "SD"
         },
         {
-            "achievements": 99.4548,
-            "fc": "",
+            "achievements": 100.6115,
+            "fc": "fc",
             "fs": "",
             "id": 61,
             "level": "14",
@@ -2951,7 +3201,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.5766,
+            "achievements": 100.1423,
             "fc": "",
             "fs": "",
             "id": 138,
@@ -3098,6 +3348,16 @@
             "level": "12+",
             "level_index": 4,
             "title": "Endless World",
+            "type": "SD"
+        },
+        {
+            "achievements": 0.0,
+            "fc": "",
+            "fs": "",
+            "id": 100,
+            "level": "12+",
+            "level_index": 4,
+            "title": "Tell Your World",
             "type": "SD"
         },
         {
@@ -3321,7 +3581,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.0826,
+            "achievements": 100.3236,
             "fc": "fc",
             "fs": "",
             "id": 199,
@@ -3331,8 +3591,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.6419,
-            "fc": "fcp",
+            "achievements": 100.9166,
+            "fc": "ap",
             "fs": "",
             "id": 201,
             "level": "12+",
@@ -3401,8 +3661,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.2457,
-            "fc": "",
+            "achievements": 100.7257,
+            "fc": "fcp",
             "fs": "",
             "id": 115,
             "level": "13",
@@ -3421,8 +3681,8 @@
             "type": "SD"
         },
         {
-            "achievements": 96.6981,
-            "fc": "",
+            "achievements": 100.6614,
+            "fc": "fcp",
             "fs": "",
             "id": 226,
             "level": "12+",
@@ -3511,7 +3771,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.1944,
+            "achievements": 100.4494,
             "fc": "fc",
             "fs": "",
             "id": 237,
@@ -3601,7 +3861,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.6275,
+            "achievements": 100.0066,
             "fc": "",
             "fs": "",
             "id": 227,
@@ -3618,6 +3878,26 @@
             "level": "12+",
             "level_index": 3,
             "title": "ぽっぴっぽー",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.7622,
+            "fc": "",
+            "fs": "",
+            "id": 266,
+            "level": "11",
+            "level_index": 3,
+            "title": "Living Universe",
+            "type": "SD"
+        },
+        {
+            "achievements": 70.861,
+            "fc": "",
+            "fs": "",
+            "id": 193,
+            "level": "13",
+            "level_index": 3,
+            "title": "セツナトリップ",
             "type": "SD"
         },
         {
@@ -3981,8 +4261,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.0191,
-            "fc": "",
+            "achievements": 100.45,
+            "fc": "fc",
             "fs": "",
             "id": 301,
             "level": "14",
@@ -5081,7 +5361,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4349,
+            "achievements": 100.5583,
             "fc": "fc",
             "fs": "",
             "id": 379,
@@ -5188,6 +5468,46 @@
             "level": "13+",
             "level_index": 4,
             "title": "緋色のDance",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.4977,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 383,
+            "level": "5",
+            "level_index": 0,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.4255,
+            "fc": "fcp",
+            "fs": "",
+            "id": 383,
+            "level": "7",
+            "level_index": 1,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.5659,
+            "fc": "",
+            "fs": "",
+            "id": 383,
+            "level": "9+",
+            "level_index": 2,
+            "title": "Link(CoF)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.7507,
+            "fc": "fc",
+            "fs": "",
+            "id": 383,
+            "level": "11+",
+            "level_index": 3,
+            "title": "Link(CoF)",
             "type": "SD"
         },
         {
@@ -6291,7 +6611,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.5275,
+            "achievements": 100.6773,
             "fc": "fc",
             "fs": "",
             "id": 421,
@@ -7001,7 +7321,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.6031,
+            "achievements": 100.909,
             "fc": "fcp",
             "fs": "fsp",
             "id": 411,
@@ -7061,7 +7381,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.7421,
+            "achievements": 100.8305,
             "fc": "fc",
             "fs": "",
             "id": 427,
@@ -7151,7 +7471,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.2412,
+            "achievements": 100.3196,
             "fc": "fc",
             "fs": "",
             "id": 462,
@@ -8312,7 +8632,7 @@
         },
         {
             "achievements": 100.3747,
-            "fc": "",
+            "fc": "fc",
             "fs": "",
             "id": 538,
             "level": "12+",
@@ -8413,7 +8733,7 @@
         {
             "achievements": 100.5022,
             "fc": "fc",
-            "fs": "",
+            "fs": "fsp",
             "id": 494,
             "level": "14",
             "level_index": 3,
@@ -8911,7 +9231,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.484,
+            "achievements": 99.7617,
             "fc": "",
             "fs": "",
             "id": 557,
@@ -8951,7 +9271,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.5242,
+            "achievements": 98.7438,
             "fc": "",
             "fs": "",
             "id": 571,
@@ -8981,7 +9301,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.5747,
+            "achievements": 100.6459,
             "fc": "fcp",
             "fs": "",
             "id": 488,
@@ -9001,7 +9321,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.0663,
+            "achievements": 100.3161,
             "fc": "fc",
             "fs": "",
             "id": 573,
@@ -9033,7 +9353,7 @@
         {
             "achievements": 100.2394,
             "fc": "fc",
-            "fs": "",
+            "fs": "fsp",
             "id": 574,
             "level": "13+",
             "level_index": 3,
@@ -9098,6 +9418,16 @@
             "level": "14",
             "level_index": 4,
             "title": "Panopticon",
+            "type": "SD"
+        },
+        {
+            "achievements": 101.0,
+            "fc": "app",
+            "fs": "",
+            "id": 603,
+            "level": "10",
+            "level_index": 2,
+            "title": "その群青が愛しかったようだった",
             "type": "SD"
         },
         {
@@ -10713,7 +11043,7 @@
         {
             "achievements": 100.681,
             "fc": "fc",
-            "fs": "",
+            "fs": "fs",
             "id": 648,
             "level": "12+",
             "level_index": 3,
@@ -10841,9 +11171,9 @@
             "type": "SD"
         },
         {
-            "achievements": 100.6199,
-            "fc": "fcp",
-            "fs": "",
+            "achievements": 101.0,
+            "fc": "app",
+            "fs": "fsp",
             "id": 689,
             "level": "12",
             "level_index": 2,
@@ -10881,8 +11211,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.5402,
-            "fc": "fc",
+            "achievements": 100.9404,
+            "fc": "fcp",
             "fs": "fsp",
             "id": 643,
             "level": "12",
@@ -11153,7 +11483,7 @@
         {
             "achievements": 100.5828,
             "fc": "fcp",
-            "fs": "",
+            "fs": "fsp",
             "id": 689,
             "level": "14",
             "level_index": 3,
@@ -11278,6 +11608,26 @@
             "level": "14",
             "level_index": 3,
             "title": "エンドマークに希望と涙を添えて",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.9411,
+            "fc": "ap",
+            "fs": "",
+            "id": 586,
+            "level": "9",
+            "level_index": 2,
+            "title": "永遠のメロディ",
+            "type": "SD"
+        },
+        {
+            "achievements": 51.6223,
+            "fc": "",
+            "fs": "",
+            "id": 721,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Bang Babang Bang!!!",
             "type": "SD"
         },
         {
@@ -11471,7 +11821,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.1089,
+            "achievements": 99.3024,
             "fc": "fc",
             "fs": "",
             "id": 776,
@@ -11751,7 +12101,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.2289,
+            "achievements": 100.5719,
             "fc": "fc",
             "fs": "",
             "id": 757,
@@ -11848,6 +12198,16 @@
             "level": "13+",
             "level_index": 4,
             "title": "花と、雪と、ドラムンベース。",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.7476,
+            "fc": "fc",
+            "fs": "",
+            "id": 762,
+            "level": "10",
+            "level_index": 2,
+            "title": "このピアノでお前を8759632145回ぶん殴る",
             "type": "SD"
         },
         {
@@ -12151,7 +12511,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.7706,
+            "achievements": 100.9001,
             "fc": "fcp",
             "fs": "",
             "id": 852,
@@ -12181,8 +12541,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.8211,
-            "fc": "fc",
+            "achievements": 100.9351,
+            "fc": "fcp",
             "fs": "",
             "id": 791,
             "level": "12",
@@ -12411,7 +12771,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.6686,
+            "achievements": 98.8647,
             "fc": "",
             "fs": "",
             "id": 834,
@@ -12581,7 +12941,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.4429,
+            "achievements": 99.8657,
             "fc": "",
             "fs": "",
             "id": 833,
@@ -12591,7 +12951,7 @@
             "type": "SD"
         },
         {
-            "achievements": 98.7352,
+            "achievements": 98.7733,
             "fc": "",
             "fs": "",
             "id": 799,

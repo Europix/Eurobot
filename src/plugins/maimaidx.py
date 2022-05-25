@@ -114,6 +114,17 @@ async def _(bot: Bot, event: Event, state: T_State):
     elif get_qqs in white_list:
         await tietie.finish("贴贴qwq")
     await tietie.finish("爬远点")
+    
+    
+wanan = on_command('Eurobot 晚安')
+@wanan.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    get_qqs = event.get_user_id()
+    if(get_qqs in ['759381653']):
+        await wanan.finish("主人晚安(´-ω-`)")
+    elif get_qqs in white_list:
+        await wanan.finish("晚安qwq")
+    await wanan.finish("爬远点")
 
 
 doum = on_command('骂我', aliases={'草我'})
@@ -214,7 +225,7 @@ async def _(bot: Bot, event: Event, state: T_State):
     rand_s = ''
     print (res.groups())
     if res.groups()[0] == "上":
-        music_data = total_list.filter(ds=(float(13.4), float(14.4)))
+        music_data = total_list.filter(ds=(float(13.4), float(14.3)))
         #music_data = total_list.filter(level=random.choice(mid))
         rand_result = song_txt(music_data.random())
         rand_s = rand_s + '随机段位上级：300血，每首歌回复20血\n'
@@ -228,7 +239,7 @@ async def _(bot: Bot, event: Event, state: T_State):
         rand_s = rand_s + '\n第4首：'+ rand_result
         await rand_course.finish(rand_s)
     if res.groups()[0] == "特":
-        music_data = total_list.filter(ds=(float(14.5), float(14.9)))
+        music_data = total_list.filter(ds=(float(14.4), float(14.9)))
         rand_s = rand_s + '随机段位超上级：100血，每首歌回复10血\n'
         rand_s = rand_s + 'GREAT -2/ GOOD -3/ MISS -5 \n'
         rand_result = song_txt(music_data.random())
@@ -474,6 +485,8 @@ async def _(bot: Bot, event: Event, state: T_State):
             if len(argvs) == 2 and ur_qq == "759381653":
                 ur_qq = argvs[1]
                 print(argvs)
+            elif len(argvs) == 2 and ur_qq != "759381653":
+                await myscore.finish("是不是格式错了呢？\n例：!查分 对立拉窗帘 (名字中不能有空格哦)\n不可以偷偷查别人分哦\n只有主人可以owo")
             json_data = {'qq': ur_qq,
                          'version': [version0, version1, version2, version3, version4, version5, version6, version7,
                                      version8,
@@ -620,7 +633,6 @@ async def _(bot: Bot, event: Event, state: T_State):
         play_data = await resp.json()
     try:
         dest = int(argvs[0])
-        lev = int(argvs[1])
     except Exception:
         name = argvs[0].strip().lower()
         if name not in music_aliases:
@@ -634,6 +646,7 @@ async def _(bot: Bot, event: Event, state: T_State):
             await leader_board.finish("这个别名有很多歌,请用id查询")
     # print(argvs[0])
     # print(dest)
+    # lev = int(argvs[1])
     with open(f'src/json/play_data_{ur_qq}.json', 'w', -1, 'utf-8') as f:
         json.dump(play_data, f, ensure_ascii=False, indent=4)
     with open(f'src/json/play_data_{ur_qq}.json', 'r', encoding='utf-8') as ff:

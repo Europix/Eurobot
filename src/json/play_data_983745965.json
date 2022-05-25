@@ -1,0 +1,3144 @@
+{
+    "verlist": [
+        {
+            "achievements": 95.4753,
+            "fc": "",
+            "fs": "",
+            "id": 11113,
+            "level": "11+",
+            "level_index": 3,
+            "title": "ハム太郎とっとこうた",
+            "type": "DX"
+        },
+        {
+            "achievements": 93.9705,
+            "fc": "",
+            "fs": "",
+            "id": 11185,
+            "level": "12+",
+            "level_index": 3,
+            "title": "命に嫌われている",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.302,
+            "fc": "fc",
+            "fs": "",
+            "id": 11194,
+            "level": "12",
+            "level_index": 3,
+            "title": "ベノム",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.2841,
+            "fc": "",
+            "fs": "",
+            "id": 11195,
+            "level": "13",
+            "level_index": 3,
+            "title": "マネマネサイコトロピック",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.6364,
+            "fc": "",
+            "fs": "",
+            "id": 11192,
+            "level": "12+",
+            "level_index": 3,
+            "title": "絶対にチョコミントを食べるアオイチャン",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.3031,
+            "fc": "",
+            "fs": "",
+            "id": 11191,
+            "level": "12",
+            "level_index": 3,
+            "title": "明星ギャラクティカ",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.3869,
+            "fc": "",
+            "fs": "",
+            "id": 11188,
+            "level": "13",
+            "level_index": 3,
+            "title": "絶え間なく藍色",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.3035,
+            "fc": "fcp",
+            "fs": "fsp",
+            "id": 11187,
+            "level": "12",
+            "level_index": 3,
+            "title": "乙女解剖",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.9182,
+            "fc": "",
+            "fs": "",
+            "id": 11186,
+            "level": "13",
+            "level_index": 3,
+            "title": "アンクローズ・ヒューマン",
+            "type": "DX"
+        },
+        {
+            "achievements": 96.3323,
+            "fc": "",
+            "fs": "",
+            "id": 11135,
+            "level": "12+",
+            "level_index": 3,
+            "title": "全力ハッピーライフ",
+            "type": "DX"
+        },
+        {
+            "achievements": 92.4354,
+            "fc": "",
+            "fs": "",
+            "id": 11206,
+            "level": "14+",
+            "level_index": 3,
+            "title": "BATTLE NO.1",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.278,
+            "fc": "fc",
+            "fs": "",
+            "id": 11147,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Saika",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.7547,
+            "fc": "",
+            "fs": "",
+            "id": 11143,
+            "level": "13",
+            "level_index": 3,
+            "title": "アトロポスと最果の探究者",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.4306,
+            "fc": "",
+            "fs": "",
+            "id": 11141,
+            "level": "13+",
+            "level_index": 3,
+            "title": "energy trixxx",
+            "type": "DX"
+        },
+        {
+            "achievements": 81.8015,
+            "fc": "",
+            "fs": "",
+            "id": 11221,
+            "level": "14",
+            "level_index": 3,
+            "title": "≠彡\"/了→",
+            "type": "DX"
+        },
+        {
+            "achievements": 94.1106,
+            "fc": "",
+            "fs": "",
+            "id": 11097,
+            "level": "13",
+            "level_index": 3,
+            "title": "ブレインジャックシンドローム",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.3998,
+            "fc": "",
+            "fs": "",
+            "id": 11100,
+            "level": "12+",
+            "level_index": 3,
+            "title": "シエルブルーマルシェ",
+            "type": "DX"
+        },
+        {
+            "achievements": 93.2534,
+            "fc": "",
+            "fs": "",
+            "id": 11214,
+            "level": "13",
+            "level_index": 3,
+            "title": "Jörqer",
+            "type": "DX"
+        },
+        {
+            "achievements": 90.3947,
+            "fc": "",
+            "fs": "",
+            "id": 11089,
+            "level": "14",
+            "level_index": 3,
+            "title": "STEEL TRANSONIC",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.0662,
+            "fc": "",
+            "fs": "",
+            "id": 11175,
+            "level": "14",
+            "level_index": 3,
+            "title": "宛城、炎上！！",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.1142,
+            "fc": "",
+            "fs": "",
+            "id": 11180,
+            "level": "12+",
+            "level_index": 4,
+            "title": "紅蓮華",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.5089,
+            "fc": "fcp",
+            "fs": "",
+            "id": 11114,
+            "level": "9+",
+            "level_index": 2,
+            "title": "青空のラプソディ",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.7275,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 11194,
+            "level": "9",
+            "level_index": 2,
+            "title": "ベノム",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6026,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 11195,
+            "level": "10+",
+            "level_index": 2,
+            "title": "マネマネサイコトロピック",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.8115,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 11191,
+            "level": "8+",
+            "level_index": 2,
+            "title": "明星ギャラクティカ",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.3888,
+            "fc": "",
+            "fs": "",
+            "id": 11126,
+            "level": "10",
+            "level_index": 2,
+            "title": "バイオレンストリガー",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.061,
+            "fc": "",
+            "fs": "",
+            "id": 11131,
+            "level": "10",
+            "level_index": 2,
+            "title": "深海シティアンダーグラウンド",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.0357,
+            "fc": "",
+            "fs": "",
+            "id": 11136,
+            "level": "9+",
+            "level_index": 2,
+            "title": "Oath Act",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.0177,
+            "fc": "fc",
+            "fs": "",
+            "id": 11216,
+            "level": "10+",
+            "level_index": 2,
+            "title": "felys -final remix-",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.7294,
+            "fc": "",
+            "fs": "",
+            "id": 11206,
+            "level": "12",
+            "level_index": 2,
+            "title": "BATTLE NO.1",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.1888,
+            "fc": "fc",
+            "fs": "",
+            "id": 11147,
+            "level": "10",
+            "level_index": 2,
+            "title": "Saika",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.1148,
+            "fc": "fc",
+            "fs": "",
+            "id": 11148,
+            "level": "11+",
+            "level_index": 2,
+            "title": "CHAOS",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.176,
+            "fc": "",
+            "fs": "",
+            "id": 11143,
+            "level": "10+",
+            "level_index": 2,
+            "title": "アトロポスと最果の探究者",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.9596,
+            "fc": "fc",
+            "fs": "",
+            "id": 11141,
+            "level": "11",
+            "level_index": 2,
+            "title": "energy trixxx",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.9756,
+            "fc": "",
+            "fs": "",
+            "id": 11221,
+            "level": "12+",
+            "level_index": 2,
+            "title": "≠彡\"/了→",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.1484,
+            "fc": "fc",
+            "fs": "",
+            "id": 11160,
+            "level": "12",
+            "level_index": 2,
+            "title": "Mutation",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.9265,
+            "fc": "",
+            "fs": "",
+            "id": 11155,
+            "level": "12",
+            "level_index": 2,
+            "title": "ARAIS",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.2105,
+            "fc": "",
+            "fs": "",
+            "id": 11102,
+            "level": "12+",
+            "level_index": 2,
+            "title": "封焔の135秒",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.0417,
+            "fc": "",
+            "fs": "",
+            "id": 11090,
+            "level": "11",
+            "level_index": 2,
+            "title": "Flashkick",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.7036,
+            "fc": "",
+            "fs": "",
+            "id": 11089,
+            "level": "11+",
+            "level_index": 2,
+            "title": "STEEL TRANSONIC",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.2788,
+            "fc": "fc",
+            "fs": "",
+            "id": 11175,
+            "level": "12",
+            "level_index": 2,
+            "title": "宛城、炎上！！",
+            "type": "DX"
+        },
+        {
+            "achievements": 90.9975,
+            "fc": "",
+            "fs": "",
+            "id": 10288,
+            "level": "7+",
+            "level_index": 1,
+            "title": "六兆年と一夜物語",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.1445,
+            "fc": "fc",
+            "fs": "",
+            "id": 11075,
+            "level": "8",
+            "level_index": 1,
+            "title": "プナイプナイせんそう",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.6341,
+            "fc": "fcp",
+            "fs": "",
+            "id": 11051,
+            "level": "7+",
+            "level_index": 1,
+            "title": "Destr0yer",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.4246,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 11106,
+            "level": "8+",
+            "level_index": 1,
+            "title": "Valsqotch",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.1819,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 10363,
+            "level": "8+",
+            "level_index": 1,
+            "title": "Oshama Scramble!",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.3537,
+            "fc": "",
+            "fs": "",
+            "id": 11029,
+            "level": "8",
+            "level_index": 1,
+            "title": "Titania",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.2428,
+            "fc": "",
+            "fs": "",
+            "id": 11035,
+            "level": "11+",
+            "level_index": 3,
+            "title": "LOSER",
+            "type": "DX"
+        },
+        {
+            "achievements": 94.609,
+            "fc": "",
+            "fs": "",
+            "id": 11086,
+            "level": "11+",
+            "level_index": 3,
+            "title": "だれかの心臓になれたなら",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.3602,
+            "fc": "fc",
+            "fs": "",
+            "id": 10706,
+            "level": "11",
+            "level_index": 3,
+            "title": "シャルル",
+            "type": "DX"
+        },
+        {
+            "achievements": 90.7008,
+            "fc": "",
+            "fs": "",
+            "id": 11078,
+            "level": "12",
+            "level_index": 3,
+            "title": "quiet room",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.8632,
+            "fc": "",
+            "fs": "",
+            "id": 11069,
+            "level": "11+",
+            "level_index": 3,
+            "title": "太陽系デスコ",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.6549,
+            "fc": "",
+            "fs": "",
+            "id": 11088,
+            "level": "11+",
+            "level_index": 3,
+            "title": "39みゅーじっく！",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.6925,
+            "fc": "",
+            "fs": "",
+            "id": 10256,
+            "level": "11",
+            "level_index": 3,
+            "title": "いーあるふぁんくらぶ",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.731,
+            "fc": "",
+            "fs": "",
+            "id": 10288,
+            "level": "13",
+            "level_index": 3,
+            "title": "六兆年と一夜物語",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.3729,
+            "fc": "",
+            "fs": "",
+            "id": 11122,
+            "level": "12+",
+            "level_index": 3,
+            "title": "アンドロイドガール",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.9962,
+            "fc": "",
+            "fs": "",
+            "id": 11083,
+            "level": "12",
+            "level_index": 3,
+            "title": "サヨナラチェーンソー",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.7702,
+            "fc": "",
+            "fs": "",
+            "id": 10191,
+            "level": "12+",
+            "level_index": 3,
+            "title": "脳漿炸裂ガール",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.1409,
+            "fc": "",
+            "fs": "",
+            "id": 11046,
+            "level": "12",
+            "level_index": 3,
+            "title": "アディショナルメモリー",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.4303,
+            "fc": "fc",
+            "fs": "fs",
+            "id": 11124,
+            "level": "12",
+            "level_index": 3,
+            "title": "スロウダウナー",
+            "type": "DX"
+        },
+        {
+            "achievements": 96.5309,
+            "fc": "",
+            "fs": "",
+            "id": 11044,
+            "level": "11+",
+            "level_index": 3,
+            "title": "メルティランドナイトメア",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.6402,
+            "fc": "",
+            "fs": "",
+            "id": 11058,
+            "level": "13",
+            "level_index": 3,
+            "title": "デンパラダイム",
+            "type": "DX"
+        },
+        {
+            "achievements": 96.9724,
+            "fc": "",
+            "fs": "",
+            "id": 11059,
+            "level": "13",
+            "level_index": 3,
+            "title": "骸骨楽団とリリア",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.627,
+            "fc": "",
+            "fs": "",
+            "id": 11050,
+            "level": "12",
+            "level_index": 3,
+            "title": "Strobe♡Girl",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.3269,
+            "fc": "fc",
+            "fs": "",
+            "id": 10702,
+            "level": "11+",
+            "level_index": 3,
+            "title": "WARNING×WARNING×WARNING",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.0643,
+            "fc": "",
+            "fs": "",
+            "id": 11064,
+            "level": "13",
+            "level_index": 3,
+            "title": "Little \"Sister\" Bitch",
+            "type": "DX"
+        },
+        {
+            "achievements": 96.1582,
+            "fc": "",
+            "fs": "",
+            "id": 11075,
+            "level": "13+",
+            "level_index": 3,
+            "title": "プナイプナイせんそう",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.5186,
+            "fc": "",
+            "fs": "",
+            "id": 11085,
+            "level": "13",
+            "level_index": 3,
+            "title": "Halcyon",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.7095,
+            "fc": "",
+            "fs": "",
+            "id": 11051,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Destr0yer",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.7618,
+            "fc": "",
+            "fs": "",
+            "id": 10593,
+            "level": "13",
+            "level_index": 3,
+            "title": "conflict",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.3269,
+            "fc": "",
+            "fs": "",
+            "id": 11094,
+            "level": "13",
+            "level_index": 3,
+            "title": "ここからはじまるプロローグ。",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.6991,
+            "fc": "",
+            "fs": "",
+            "id": 11006,
+            "level": "12+",
+            "level_index": 3,
+            "title": "P-qoq",
+            "type": "DX"
+        },
+        {
+            "achievements": 94.5583,
+            "fc": "",
+            "fs": "",
+            "id": 11096,
+            "level": "13+",
+            "level_index": 3,
+            "title": "モ°ルモ°ル",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.8589,
+            "fc": "",
+            "fs": "",
+            "id": 10363,
+            "level": "13",
+            "level_index": 3,
+            "title": "Oshama Scramble!",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.9187,
+            "fc": "",
+            "fs": "",
+            "id": 11019,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Scarlet Wings",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.7656,
+            "fc": "",
+            "fs": "",
+            "id": 11021,
+            "level": "13+",
+            "level_index": 3,
+            "title": "魔ジョ狩リ",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.0465,
+            "fc": "",
+            "fs": "",
+            "id": 11031,
+            "level": "13+",
+            "level_index": 3,
+            "title": "立川浄穢捕物帳",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5283,
+            "fc": "",
+            "fs": "",
+            "id": 11035,
+            "level": "8+",
+            "level_index": 2,
+            "title": "LOSER",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.2396,
+            "fc": "",
+            "fs": "",
+            "id": 11038,
+            "level": "9",
+            "level_index": 2,
+            "title": "新宝島",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.6176,
+            "fc": "fc",
+            "fs": "",
+            "id": 11116,
+            "level": "9",
+            "level_index": 2,
+            "title": "ラブ・ドラマティック feat. 伊原六花",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.5989,
+            "fc": "",
+            "fs": "",
+            "id": 10706,
+            "level": "9",
+            "level_index": 2,
+            "title": "シャルル",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.7001,
+            "fc": "fc",
+            "fs": "",
+            "id": 11069,
+            "level": "9+",
+            "level_index": 2,
+            "title": "太陽系デスコ",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.6592,
+            "fc": "fc",
+            "fs": "",
+            "id": 10256,
+            "level": "8",
+            "level_index": 2,
+            "title": "いーあるふぁんくらぶ",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.5494,
+            "fc": "",
+            "fs": "",
+            "id": 11073,
+            "level": "10",
+            "level_index": 2,
+            "title": "アカリがやってきたぞっ",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.5839,
+            "fc": "fcp",
+            "fs": "fsp",
+            "id": 10288,
+            "level": "9",
+            "level_index": 2,
+            "title": "六兆年と一夜物語",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.3464,
+            "fc": "",
+            "fs": "",
+            "id": 11122,
+            "level": "10",
+            "level_index": 2,
+            "title": "アンドロイドガール",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.1126,
+            "fc": "fc",
+            "fs": "",
+            "id": 10191,
+            "level": "11",
+            "level_index": 2,
+            "title": "脳漿炸裂ガール",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.74,
+            "fc": "fc",
+            "fs": "",
+            "id": 11052,
+            "level": "10",
+            "level_index": 2,
+            "title": "グリーンライツ・セレナーデ",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.8952,
+            "fc": "",
+            "fs": "",
+            "id": 11058,
+            "level": "11+",
+            "level_index": 2,
+            "title": "デンパラダイム",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5273,
+            "fc": "fc",
+            "fs": "",
+            "id": 11050,
+            "level": "10",
+            "level_index": 2,
+            "title": "Strobe♡Girl",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.5582,
+            "fc": "",
+            "fs": "",
+            "id": 11049,
+            "level": "10",
+            "level_index": 2,
+            "title": "Bad Apple!! feat.nomico (REDALiCE Remix)",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.9841,
+            "fc": "",
+            "fs": "",
+            "id": 11134,
+            "level": "10+",
+            "level_index": 2,
+            "title": "ソリッド",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.4495,
+            "fc": "",
+            "fs": "",
+            "id": 10702,
+            "level": "9+",
+            "level_index": 2,
+            "title": "WARNING×WARNING×WARNING",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.1899,
+            "fc": "",
+            "fs": "",
+            "id": 11064,
+            "level": "11",
+            "level_index": 2,
+            "title": "Little \"Sister\" Bitch",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.7768,
+            "fc": "fc",
+            "fs": "",
+            "id": 11065,
+            "level": "11",
+            "level_index": 2,
+            "title": "Yakumo >>JOINT STRUGGLE (2019 Update)",
+            "type": "DX"
+        },
+        {
+            "achievements": 93.7933,
+            "fc": "",
+            "fs": "",
+            "id": 10641,
+            "level": "11",
+            "level_index": 2,
+            "title": "Calamity Fortune",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.7423,
+            "fc": "fcp",
+            "fs": "fsd",
+            "id": 11075,
+            "level": "11+",
+            "level_index": 2,
+            "title": "プナイプナイせんそう",
+            "type": "DX"
+        },
+        {
+            "achievements": 86.5922,
+            "fc": "",
+            "fs": "",
+            "id": 11051,
+            "level": "11",
+            "level_index": 2,
+            "title": "Destr0yer",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5045,
+            "fc": "fc",
+            "fs": "",
+            "id": 10734,
+            "level": "11",
+            "level_index": 2,
+            "title": "ENERGY SYNERGY MATRIX",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.8796,
+            "fc": "",
+            "fs": "",
+            "id": 11093,
+            "level": "11+",
+            "level_index": 2,
+            "title": "UniTas",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.2525,
+            "fc": "",
+            "fs": "",
+            "id": 11094,
+            "level": "10+",
+            "level_index": 2,
+            "title": "ここからはじまるプロローグ。",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.6731,
+            "fc": "",
+            "fs": "",
+            "id": 11106,
+            "level": "13",
+            "level_index": 2,
+            "title": "Valsqotch",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.2204,
+            "fc": "fc",
+            "fs": "",
+            "id": 11027,
+            "level": "12",
+            "level_index": 2,
+            "title": "アポカリプスに反逆の焔を焚べろ",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5963,
+            "fc": "",
+            "fs": "",
+            "id": 10363,
+            "level": "11",
+            "level_index": 2,
+            "title": "Oshama Scramble!",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.5014,
+            "fc": "",
+            "fs": "",
+            "id": 11023,
+            "level": "11+",
+            "level_index": 2,
+            "title": "Blows Up Everything",
+            "type": "DX"
+        },
+        {
+            "achievements": 95.32,
+            "fc": "",
+            "fs": "",
+            "id": 11021,
+            "level": "11",
+            "level_index": 2,
+            "title": "魔ジョ狩リ",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.6243,
+            "fc": "",
+            "fs": "",
+            "id": 11004,
+            "level": "11",
+            "level_index": 2,
+            "title": "MAXRAGE",
+            "type": "DX"
+        },
+        {
+            "achievements": 97.7217,
+            "fc": "",
+            "fs": "",
+            "id": 11080,
+            "level": "9",
+            "level_index": 2,
+            "title": "Jump!! Jump!! Jump!!",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.8146,
+            "fc": "fc",
+            "fs": "",
+            "id": 11029,
+            "level": "12",
+            "level_index": 2,
+            "title": "Titania",
+            "type": "DX"
+        },
+        {
+            "achievements": 100.0818,
+            "fc": "",
+            "fs": "",
+            "id": 11025,
+            "level": "10",
+            "level_index": 2,
+            "title": "管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2",
+            "type": "DX"
+        },
+        {
+            "achievements": 99.5377,
+            "fc": "",
+            "fs": "",
+            "id": 11031,
+            "level": "11",
+            "level_index": 2,
+            "title": "立川浄穢捕物帳",
+            "type": "DX"
+        },
+        {
+            "achievements": 98.8071,
+            "fc": "",
+            "fs": "",
+            "id": 56,
+            "level": "12+",
+            "level_index": 3,
+            "title": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.7884,
+            "fc": "fc",
+            "fs": "",
+            "id": 46,
+            "level": "11",
+            "level_index": 3,
+            "title": "ルカルカ★ナイトフィーバー",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.4156,
+            "fc": "",
+            "fs": "",
+            "id": 23,
+            "level": "10+",
+            "level_index": 3,
+            "title": "Crush On You",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.4843,
+            "fc": "",
+            "fs": "",
+            "id": 25,
+            "level": "10+",
+            "level_index": 3,
+            "title": "Sweets×Sweets",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.3171,
+            "fc": "",
+            "fs": "",
+            "id": 35,
+            "level": "13",
+            "level_index": 3,
+            "title": "炭★坑★節",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.425,
+            "fc": "fc",
+            "fs": "",
+            "id": 17,
+            "level": "12",
+            "level_index": 4,
+            "title": "Future",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.2853,
+            "fc": "",
+            "fs": "",
+            "id": 100,
+            "level": "11+",
+            "level_index": 3,
+            "title": "Tell Your World",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.5176,
+            "fc": "",
+            "fs": "",
+            "id": 121,
+            "level": "11+",
+            "level_index": 3,
+            "title": "スイートマジック",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.5931,
+            "fc": "",
+            "fs": "",
+            "id": 101,
+            "level": "12+",
+            "level_index": 3,
+            "title": "おちゃめ機能",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.2577,
+            "fc": "",
+            "fs": "",
+            "id": 107,
+            "level": "11+",
+            "level_index": 3,
+            "title": "ロミオとシンデレラ",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.6832,
+            "fc": "",
+            "fs": "",
+            "id": 154,
+            "level": "13",
+            "level_index": 3,
+            "title": "DO RORO DERODERO ON DO RORO",
+            "type": "SD"
+        },
+        {
+            "achievements": 91.5883,
+            "fc": "",
+            "fs": "",
+            "id": 133,
+            "level": "13",
+            "level_index": 3,
+            "title": "We Gonna Party",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.4445,
+            "fc": "",
+            "fs": "",
+            "id": 101,
+            "level": "8",
+            "level_index": 2,
+            "title": "おちゃめ機能",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.168,
+            "fc": "",
+            "fs": "",
+            "id": 143,
+            "level": "12",
+            "level_index": 2,
+            "title": "Fragrance",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.6268,
+            "fc": "fcp",
+            "fs": "",
+            "id": 189,
+            "level": "12",
+            "level_index": 3,
+            "title": "弱虫モンブラン",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8783,
+            "fc": "",
+            "fs": "",
+            "id": 188,
+            "level": "12+",
+            "level_index": 3,
+            "title": "天ノ弱",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.9282,
+            "fc": "",
+            "fs": "",
+            "id": 200,
+            "level": "11+",
+            "level_index": 3,
+            "title": "Bad Apple!! feat nomico",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.6991,
+            "fc": "",
+            "fs": "",
+            "id": 204,
+            "level": "12",
+            "level_index": 3,
+            "title": "ナイト・オブ・ナイツ",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.7818,
+            "fc": "",
+            "fs": "",
+            "id": 199,
+            "level": "12",
+            "level_index": 3,
+            "title": "チルノのパーフェクトさんすう教室",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.4331,
+            "fc": "",
+            "fs": "",
+            "id": 213,
+            "level": "12+",
+            "level_index": 3,
+            "title": "KONNANじゃないっ！",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.3456,
+            "fc": "",
+            "fs": "",
+            "id": 227,
+            "level": "14",
+            "level_index": 3,
+            "title": "Garakuta Doll Play",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.1837,
+            "fc": "",
+            "fs": "",
+            "id": 226,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Blew Moon",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.144,
+            "fc": "",
+            "fs": "",
+            "id": 237,
+            "level": "12",
+            "level_index": 3,
+            "title": "Pixel Voyage",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.4458,
+            "fc": "",
+            "fs": "",
+            "id": 246,
+            "level": "12+",
+            "level_index": 3,
+            "title": "maiム・maiム feat.週刊少年マガジン",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.53,
+            "fc": "",
+            "fs": "",
+            "id": 200,
+            "level": "12+",
+            "level_index": 4,
+            "title": "Bad Apple!! feat nomico",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.9279,
+            "fc": "",
+            "fs": "",
+            "id": 191,
+            "level": "11+",
+            "level_index": 2,
+            "title": "脳漿炸裂ガール",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.743,
+            "fc": "",
+            "fs": "",
+            "id": 199,
+            "level": "9",
+            "level_index": 2,
+            "title": "チルノのパーフェクトさんすう教室",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.5738,
+            "fc": "",
+            "fs": "",
+            "id": 115,
+            "level": "11",
+            "level_index": 2,
+            "title": "DADDY MULK -Groove remix-",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.7922,
+            "fc": "",
+            "fs": "",
+            "id": 227,
+            "level": "12",
+            "level_index": 2,
+            "title": "Garakuta Doll Play",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.9166,
+            "fc": "",
+            "fs": "",
+            "id": 282,
+            "level": "12",
+            "level_index": 3,
+            "title": "からくりピエロ",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5135,
+            "fc": "",
+            "fs": "",
+            "id": 315,
+            "level": "12+",
+            "level_index": 3,
+            "title": "深海少女",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.3936,
+            "fc": "",
+            "fs": "",
+            "id": 291,
+            "level": "11",
+            "level_index": 3,
+            "title": "ハロ／ハワユ",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.149,
+            "fc": "",
+            "fs": "",
+            "id": 313,
+            "level": "12+",
+            "level_index": 3,
+            "title": "待チ人ハ来ズ。",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.4483,
+            "fc": "",
+            "fs": "",
+            "id": 324,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Jack-the-Ripper◆",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.9093,
+            "fc": "",
+            "fs": "",
+            "id": 325,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Windy Hill -Zone 1",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.4814,
+            "fc": "",
+            "fs": "",
+            "id": 330,
+            "level": "12+",
+            "level_index": 3,
+            "title": "キズナの物語",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.3244,
+            "fc": "",
+            "fs": "",
+            "id": 337,
+            "level": "13",
+            "level_index": 3,
+            "title": "鼓動",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.733,
+            "fc": "",
+            "fs": "",
+            "id": 278,
+            "level": "12+",
+            "level_index": 3,
+            "title": "レッツゴー!陰陽師",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.686,
+            "fc": "",
+            "fs": "",
+            "id": 229,
+            "level": "11+",
+            "level_index": 3,
+            "title": "ぐるぐるWASH！コインランドリー・ディスコ",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.8605,
+            "fc": "",
+            "fs": "",
+            "id": 315,
+            "level": "8+",
+            "level_index": 2,
+            "title": "深海少女",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3663,
+            "fc": "fc",
+            "fs": "",
+            "id": 270,
+            "level": "9+",
+            "level_index": 2,
+            "title": "Outlaw's Lullaby",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.3288,
+            "fc": "",
+            "fs": "",
+            "id": 233,
+            "level": "11",
+            "level_index": 2,
+            "title": "MYTHOS",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.2323,
+            "fc": "",
+            "fs": "",
+            "id": 230,
+            "level": "9+",
+            "level_index": 2,
+            "title": "CYCLES",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5556,
+            "fc": "",
+            "fs": "",
+            "id": 358,
+            "level": "13",
+            "level_index": 3,
+            "title": "毒占欲",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.0508,
+            "fc": "",
+            "fs": "",
+            "id": 374,
+            "level": "13",
+            "level_index": 3,
+            "title": "アンハッピーリフレイン",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.6344,
+            "fc": "",
+            "fs": "",
+            "id": 353,
+            "level": "11+",
+            "level_index": 3,
+            "title": "shake it!",
+            "type": "SD"
+        },
+        {
+            "achievements": 90.5348,
+            "fc": "",
+            "fs": "",
+            "id": 399,
+            "level": "11+",
+            "level_index": 3,
+            "title": "不毛！",
+            "type": "SD"
+        },
+        {
+            "achievements": 75.5469,
+            "fc": "",
+            "fs": "",
+            "id": 379,
+            "level": "14",
+            "level_index": 3,
+            "title": "Caliburne ～Story of the Legendary sword～",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.0596,
+            "fc": "fc",
+            "fs": "",
+            "id": 382,
+            "level": "9+",
+            "level_index": 2,
+            "title": "おこちゃま戦争",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.1657,
+            "fc": "",
+            "fs": "",
+            "id": 388,
+            "level": "12+",
+            "level_index": 2,
+            "title": "きたさいたま2000",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8952,
+            "fc": "",
+            "fs": "",
+            "id": 385,
+            "level": "12",
+            "level_index": 2,
+            "title": "Ignis Danse",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.6103,
+            "fc": "",
+            "fs": "",
+            "id": 387,
+            "level": "10+",
+            "level_index": 2,
+            "title": "FUJIN Rumble",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.5779,
+            "fc": "",
+            "fs": "",
+            "id": 381,
+            "level": "11+",
+            "level_index": 2,
+            "title": "B.B.K.K.B.K.K.",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.8143,
+            "fc": "",
+            "fs": "",
+            "id": 379,
+            "level": "12",
+            "level_index": 2,
+            "title": "Caliburne ～Story of the Legendary sword～",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6938,
+            "fc": "",
+            "fs": "",
+            "id": 384,
+            "level": "10+",
+            "level_index": 2,
+            "title": "VERTeX",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.8848,
+            "fc": "",
+            "fs": "",
+            "id": 299,
+            "level": "6",
+            "level_index": 1,
+            "title": "ロストワンの号哭",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.9872,
+            "fc": "fc",
+            "fs": "",
+            "id": 363,
+            "level": "7+",
+            "level_index": 1,
+            "title": "Oshama Scramble!",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.7087,
+            "fc": "",
+            "fs": "",
+            "id": 288,
+            "level": "13",
+            "level_index": 3,
+            "title": "六兆年と一夜物語",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.1711,
+            "fc": "",
+            "fs": "",
+            "id": 419,
+            "level": "12+",
+            "level_index": 3,
+            "title": "ストリーミングハート",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.4147,
+            "fc": "fc",
+            "fs": "",
+            "id": 417,
+            "level": "13",
+            "level_index": 3,
+            "title": "ウミユリ海底譚",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.291,
+            "fc": "",
+            "fs": "",
+            "id": 299,
+            "level": "13",
+            "level_index": 3,
+            "title": "ロストワンの号哭",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.9318,
+            "fc": "",
+            "fs": "",
+            "id": 400,
+            "level": "13+",
+            "level_index": 3,
+            "title": "デッドレッドガールズ",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.6633,
+            "fc": "",
+            "fs": "",
+            "id": 413,
+            "level": "12+",
+            "level_index": 3,
+            "title": "キャプテン・ムラサのケツアンカー",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.4015,
+            "fc": "",
+            "fs": "",
+            "id": 363,
+            "level": "14",
+            "level_index": 3,
+            "title": "Oshama Scramble!",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.1516,
+            "fc": "fc",
+            "fs": "",
+            "id": 299,
+            "level": "9+",
+            "level_index": 2,
+            "title": "ロストワンの号哭",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.9868,
+            "fc": "fc",
+            "fs": "",
+            "id": 439,
+            "level": "11",
+            "level_index": 2,
+            "title": "最終鬼畜妹・一部声",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.0478,
+            "fc": "",
+            "fs": "",
+            "id": 365,
+            "level": "12+",
+            "level_index": 2,
+            "title": "ガラテアの螺旋",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.1159,
+            "fc": "",
+            "fs": "",
+            "id": 363,
+            "level": "11",
+            "level_index": 2,
+            "title": "Oshama Scramble!",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.5921,
+            "fc": "",
+            "fs": "",
+            "id": 348,
+            "level": "11+",
+            "level_index": 2,
+            "title": "Axeria",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6834,
+            "fc": "fc",
+            "fs": "",
+            "id": 411,
+            "level": "8",
+            "level_index": 1,
+            "title": "初音ミクの消失",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.0214,
+            "fc": "",
+            "fs": "",
+            "id": 462,
+            "level": "8",
+            "level_index": 1,
+            "title": "7thSense",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.072,
+            "fc": "",
+            "fs": "",
+            "id": 456,
+            "level": "9+",
+            "level_index": 1,
+            "title": "Glorious Crown",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.9484,
+            "fc": "",
+            "fs": "",
+            "id": 411,
+            "level": "13+",
+            "level_index": 3,
+            "title": "初音ミクの消失",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8817,
+            "fc": "",
+            "fs": "",
+            "id": 412,
+            "level": "12",
+            "level_index": 3,
+            "title": "イノコリ先生",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.0685,
+            "fc": "",
+            "fs": "",
+            "id": 427,
+            "level": "13",
+            "level_index": 3,
+            "title": "少女幻葬戦慄曲 ～ Necro Fantasia",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3587,
+            "fc": "",
+            "fs": "",
+            "id": 360,
+            "level": "12",
+            "level_index": 3,
+            "title": "物凄い勢いでけーねが物凄いうた",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.2532,
+            "fc": "",
+            "fs": "",
+            "id": 471,
+            "level": "12+",
+            "level_index": 3,
+            "title": "オモイヨシノ",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.9336,
+            "fc": "",
+            "fs": "",
+            "id": 453,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Garden Of The Dragon",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5463,
+            "fc": "",
+            "fs": "",
+            "id": 458,
+            "level": "10+",
+            "level_index": 3,
+            "title": "りばーぶ",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.293,
+            "fc": "",
+            "fs": "",
+            "id": 472,
+            "level": "12+",
+            "level_index": 3,
+            "title": "アージェントシンメトリー",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.7334,
+            "fc": "",
+            "fs": "",
+            "id": 465,
+            "level": "13+",
+            "level_index": 3,
+            "title": "スリップフリップ",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.8757,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 411,
+            "level": "10+",
+            "level_index": 2,
+            "title": "初音ミクの消失",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.2272,
+            "fc": "fc",
+            "fs": "",
+            "id": 456,
+            "level": "12+",
+            "level_index": 2,
+            "title": "Glorious Crown",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.2939,
+            "fc": "",
+            "fs": "",
+            "id": 465,
+            "level": "9+",
+            "level_index": 2,
+            "title": "スリップフリップ",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.3346,
+            "fc": "",
+            "fs": "",
+            "id": 496,
+            "level": "9",
+            "level_index": 1,
+            "title": "AMAZING MIGHTYYYY!!!!",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.3905,
+            "fc": "",
+            "fs": "",
+            "id": 507,
+            "level": "12",
+            "level_index": 3,
+            "title": "キミノヨゾラ哨戒班",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.9607,
+            "fc": "",
+            "fs": "",
+            "id": 508,
+            "level": "11",
+            "level_index": 3,
+            "title": "恋愛裁判",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.0646,
+            "fc": "",
+            "fs": "",
+            "id": 521,
+            "level": "13",
+            "level_index": 3,
+            "title": "ECHO",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.11,
+            "fc": "",
+            "fs": "",
+            "id": 520,
+            "level": "12+",
+            "level_index": 3,
+            "title": "木彫り鯰と右肩ゾンビ",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.4321,
+            "fc": "",
+            "fs": "",
+            "id": 431,
+            "level": "14",
+            "level_index": 3,
+            "title": "Contrapasso -paradiso-",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.8534,
+            "fc": "",
+            "fs": "",
+            "id": 532,
+            "level": "12",
+            "level_index": 4,
+            "title": "洗脳",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.2828,
+            "fc": "",
+            "fs": "",
+            "id": 507,
+            "level": "9+",
+            "level_index": 2,
+            "title": "キミノヨゾラ哨戒班",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.4499,
+            "fc": "",
+            "fs": "",
+            "id": 508,
+            "level": "9",
+            "level_index": 2,
+            "title": "恋愛裁判",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.4312,
+            "fc": "",
+            "fs": "",
+            "id": 521,
+            "level": "10",
+            "level_index": 2,
+            "title": "ECHO",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.9623,
+            "fc": "",
+            "fs": "",
+            "id": 496,
+            "level": "13",
+            "level_index": 2,
+            "title": "AMAZING MIGHTYYYY!!!!",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.2551,
+            "fc": "",
+            "fs": "",
+            "id": 431,
+            "level": "12",
+            "level_index": 2,
+            "title": "Contrapasso -paradiso-",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.9484,
+            "fc": "",
+            "fs": "",
+            "id": 492,
+            "level": "11+",
+            "level_index": 2,
+            "title": "Jumble Rumble",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.5039,
+            "fc": "",
+            "fs": "",
+            "id": 592,
+            "level": "7",
+            "level_index": 1,
+            "title": "Sakura Fubuki",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.8305,
+            "fc": "fcp",
+            "fs": "",
+            "id": 573,
+            "level": "7+",
+            "level_index": 1,
+            "title": "四月の雨",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.9891,
+            "fc": "",
+            "fs": "",
+            "id": 552,
+            "level": "12",
+            "level_index": 3,
+            "title": "ゴーストルール",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.9804,
+            "fc": "",
+            "fs": "",
+            "id": 283,
+            "level": "13",
+            "level_index": 3,
+            "title": "ネトゲ廃人シュプレヒコール",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.6613,
+            "fc": "",
+            "fs": "",
+            "id": 553,
+            "level": "13",
+            "level_index": 3,
+            "title": "チュルリラ・チュルリラ・ダッダッダ！",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6974,
+            "fc": "",
+            "fs": "",
+            "id": 513,
+            "level": "11",
+            "level_index": 3,
+            "title": "だんだん早くなる",
+            "type": "SD"
+        },
+        {
+            "achievements": 90.2318,
+            "fc": "",
+            "fs": "",
+            "id": 572,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Scream out! -maimai SONIC WASHER Edit-",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.7038,
+            "fc": "",
+            "fs": "",
+            "id": 535,
+            "level": "11+",
+            "level_index": 3,
+            "title": "色は匂へど散りぬるを",
+            "type": "SD"
+        },
+        {
+            "achievements": 89.8605,
+            "fc": "",
+            "fs": "",
+            "id": 574,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Selector",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3284,
+            "fc": "",
+            "fs": "",
+            "id": 603,
+            "level": "12",
+            "level_index": 3,
+            "title": "その群青が愛しかったようだった",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.4997,
+            "fc": "",
+            "fs": "",
+            "id": 513,
+            "level": "12",
+            "level_index": 4,
+            "title": "だんだん早くなる",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6154,
+            "fc": "",
+            "fs": "",
+            "id": 552,
+            "level": "9+",
+            "level_index": 2,
+            "title": "ゴーストルール",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.6913,
+            "fc": "fc",
+            "fs": "",
+            "id": 580,
+            "level": "10+",
+            "level_index": 2,
+            "title": "吉原ラメント",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.1442,
+            "fc": "fc",
+            "fs": "",
+            "id": 568,
+            "level": "10+",
+            "level_index": 2,
+            "title": "分からない",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.6657,
+            "fc": "",
+            "fs": "",
+            "id": 581,
+            "level": "12",
+            "level_index": 2,
+            "title": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3956,
+            "fc": "",
+            "fs": "",
+            "id": 566,
+            "level": "12+",
+            "level_index": 2,
+            "title": "天火明命",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.386,
+            "fc": "",
+            "fs": "",
+            "id": 587,
+            "level": "12+",
+            "level_index": 3,
+            "title": "白ゆき",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.1267,
+            "fc": "",
+            "fs": "",
+            "id": 432,
+            "level": "14",
+            "level_index": 3,
+            "title": "幸せになれる隠しコマンドがあるらしい",
+            "type": "SD"
+        },
+        {
+            "achievements": 91.4696,
+            "fc": "",
+            "fs": "",
+            "id": 639,
+            "level": "11+",
+            "level_index": 3,
+            "title": "Starlight Dance Floor",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.1511,
+            "fc": "",
+            "fs": "",
+            "id": 631,
+            "level": "13+",
+            "level_index": 3,
+            "title": "KING is BACK!!",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.7935,
+            "fc": "",
+            "fs": "",
+            "id": 614,
+            "level": "13",
+            "level_index": 3,
+            "title": "夢花火",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.6152,
+            "fc": "fc",
+            "fs": "",
+            "id": 432,
+            "level": "12",
+            "level_index": 2,
+            "title": "幸せになれる隠しコマンドがあるらしい",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.0522,
+            "fc": "",
+            "fs": "",
+            "id": 665,
+            "level": "9+",
+            "level_index": 2,
+            "title": "チルノのパーフェクトさんすう教室　⑨周年バージョン",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.1046,
+            "fc": "fc",
+            "fs": "",
+            "id": 612,
+            "level": "11",
+            "level_index": 2,
+            "title": "GO BACK 2 YOUR RAVE",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.5416,
+            "fc": "",
+            "fs": "",
+            "id": 626,
+            "level": "10",
+            "level_index": 2,
+            "title": "相思創愛",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.79,
+            "fc": "",
+            "fs": "",
+            "id": 630,
+            "level": "10+",
+            "level_index": 2,
+            "title": "曖昧mind",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.4551,
+            "fc": "fc",
+            "fs": "",
+            "id": 649,
+            "level": "11",
+            "level_index": 2,
+            "title": "猛進ソリストライフ！",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.067,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 648,
+            "level": "10+",
+            "level_index": 2,
+            "title": "My Dearest Song",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.0265,
+            "fc": "",
+            "fs": "",
+            "id": 725,
+            "level": "6",
+            "level_index": 1,
+            "title": "砂の惑星 feat. HATSUNE MIKU",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.1434,
+            "fc": "fc",
+            "fs": "",
+            "id": 705,
+            "level": "8",
+            "level_index": 1,
+            "title": "Mare Maris",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.1203,
+            "fc": "",
+            "fs": "",
+            "id": 696,
+            "level": "6",
+            "level_index": 1,
+            "title": "Still",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.9383,
+            "fc": "",
+            "fs": "",
+            "id": 694,
+            "level": "7+",
+            "level_index": 1,
+            "title": "猫祭り",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.7787,
+            "fc": "",
+            "fs": "",
+            "id": 695,
+            "level": "7",
+            "level_index": 1,
+            "title": "TRUST",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.9561,
+            "fc": "",
+            "fs": "",
+            "id": 710,
+            "level": "13",
+            "level_index": 3,
+            "title": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.8409,
+            "fc": "",
+            "fs": "",
+            "id": 712,
+            "level": "12",
+            "level_index": 3,
+            "title": "ミラクル・ショッピング",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.1055,
+            "fc": "",
+            "fs": "",
+            "id": 708,
+            "level": "11+",
+            "level_index": 3,
+            "title": "バレリーコ",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.2488,
+            "fc": "",
+            "fs": "",
+            "id": 711,
+            "level": "13",
+            "level_index": 3,
+            "title": "拝啓ドッペルゲンガー",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5324,
+            "fc": "",
+            "fs": "",
+            "id": 682,
+            "level": "13",
+            "level_index": 3,
+            "title": "人生リセットボタン",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.2305,
+            "fc": "",
+            "fs": "",
+            "id": 726,
+            "level": "12+",
+            "level_index": 3,
+            "title": "アンノウン・マザーグース",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.0052,
+            "fc": "",
+            "fs": "",
+            "id": 707,
+            "level": "11+",
+            "level_index": 3,
+            "title": "フリィダム ロリィタ",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.9182,
+            "fc": "",
+            "fs": "",
+            "id": 683,
+            "level": "12",
+            "level_index": 3,
+            "title": "しねばいいのに",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8028,
+            "fc": "",
+            "fs": "",
+            "id": 692,
+            "level": "12+",
+            "level_index": 3,
+            "title": "ドクハク",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8618,
+            "fc": "",
+            "fs": "",
+            "id": 687,
+            "level": "12+",
+            "level_index": 3,
+            "title": "共感覚おばけ",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.2371,
+            "fc": "",
+            "fs": "",
+            "id": 700,
+            "level": "13",
+            "level_index": 3,
+            "title": "疾走あんさんぶる",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.7202,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 702,
+            "level": "11+",
+            "level_index": 3,
+            "title": "WARNING×WARNING×WARNING",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.2144,
+            "fc": "",
+            "fs": "",
+            "id": 701,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Doll Judgment",
+            "type": "SD"
+        },
+        {
+            "achievements": 91.9081,
+            "fc": "",
+            "fs": "",
+            "id": 586,
+            "level": "11+",
+            "level_index": 3,
+            "title": "永遠のメロディ",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.5573,
+            "fc": "",
+            "fs": "",
+            "id": 672,
+            "level": "13+",
+            "level_index": 3,
+            "title": "MilK",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.6338,
+            "fc": "",
+            "fs": "",
+            "id": 673,
+            "level": "13",
+            "level_index": 3,
+            "title": "咲キ誇レ常世ノ華",
+            "type": "SD"
+        },
+        {
+            "achievements": 94.7157,
+            "fc": "",
+            "fs": "",
+            "id": 642,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Justified",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.1587,
+            "fc": "",
+            "fs": "",
+            "id": 705,
+            "level": "13+",
+            "level_index": 3,
+            "title": "Mare Maris",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.4432,
+            "fc": "",
+            "fs": "",
+            "id": 721,
+            "level": "12+",
+            "level_index": 3,
+            "title": "Bang Babang Bang!!!",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.5124,
+            "fc": "",
+            "fs": "",
+            "id": 694,
+            "level": "12+",
+            "level_index": 3,
+            "title": "猫祭り",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.8709,
+            "fc": "",
+            "fs": "",
+            "id": 682,
+            "level": "11",
+            "level_index": 2,
+            "title": "人生リセットボタン",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.6054,
+            "fc": "fc",
+            "fs": "",
+            "id": 726,
+            "level": "10",
+            "level_index": 2,
+            "title": "アンノウン・マザーグース",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.133,
+            "fc": "",
+            "fs": "",
+            "id": 689,
+            "level": "12",
+            "level_index": 2,
+            "title": "Credits",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.4292,
+            "fc": "",
+            "fs": "",
+            "id": 688,
+            "level": "11+",
+            "level_index": 2,
+            "title": "麒麟",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.393,
+            "fc": "",
+            "fs": "",
+            "id": 643,
+            "level": "12",
+            "level_index": 2,
+            "title": "Excalibur ～Revived resolution～",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6072,
+            "fc": "",
+            "fs": "",
+            "id": 681,
+            "level": "11",
+            "level_index": 2,
+            "title": "Signature",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.0912,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 694,
+            "level": "10+",
+            "level_index": 2,
+            "title": "猫祭り",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.2764,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 734,
+            "level": "7",
+            "level_index": 1,
+            "title": "ENERGY SYNERGY MATRIX",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.2994,
+            "fc": "",
+            "fs": "",
+            "id": 736,
+            "level": "8+",
+            "level_index": 1,
+            "title": "World Vanquisher",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.9611,
+            "fc": "",
+            "fs": "",
+            "id": 776,
+            "level": "13",
+            "level_index": 3,
+            "title": "にじよめちゃん体操第一億",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.9144,
+            "fc": "",
+            "fs": "",
+            "id": 741,
+            "level": "11",
+            "level_index": 3,
+            "title": "インビジブル",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.8821,
+            "fc": "",
+            "fs": "",
+            "id": 731,
+            "level": "10+",
+            "level_index": 3,
+            "title": "妄想感傷代償連盟",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.7994,
+            "fc": "fc",
+            "fs": "fsp",
+            "id": 782,
+            "level": "12",
+            "level_index": 3,
+            "title": "おねがいダーリン",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.6205,
+            "fc": "",
+            "fs": "",
+            "id": 759,
+            "level": "11+",
+            "level_index": 3,
+            "title": "サドマミホリック",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.657,
+            "fc": "",
+            "fs": "",
+            "id": 756,
+            "level": "11+",
+            "level_index": 3,
+            "title": "CYBER Sparks",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.6884,
+            "fc": "",
+            "fs": "",
+            "id": 772,
+            "level": "13+",
+            "level_index": 3,
+            "title": "FREEDOM DiVE (tpz Overcute Remix)",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8017,
+            "fc": "",
+            "fs": "",
+            "id": 738,
+            "level": "13",
+            "level_index": 3,
+            "title": "Brain Power",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.855,
+            "fc": "",
+            "fs": "",
+            "id": 735,
+            "level": "12",
+            "level_index": 3,
+            "title": "Session High⤴",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.6133,
+            "fc": "",
+            "fs": "",
+            "id": 770,
+            "level": "12+",
+            "level_index": 3,
+            "title": "あねぺったん",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.6071,
+            "fc": "",
+            "fs": "",
+            "id": 731,
+            "level": "12+",
+            "level_index": 4,
+            "title": "妄想感傷代償連盟",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.57,
+            "fc": "",
+            "fs": "",
+            "id": 763,
+            "level": "12+",
+            "level_index": 4,
+            "title": "はやくそれになりたい！",
+            "type": "SD"
+        },
+        {
+            "achievements": 88.5279,
+            "fc": "",
+            "fs": "",
+            "id": 756,
+            "level": "13+",
+            "level_index": 4,
+            "title": "CYBER Sparks",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.8476,
+            "fc": "fcp",
+            "fs": "",
+            "id": 764,
+            "level": "9",
+            "level_index": 2,
+            "title": "フィクサー",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6934,
+            "fc": "",
+            "fs": "",
+            "id": 510,
+            "level": "10",
+            "level_index": 2,
+            "title": "ヒビカセ",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.7534,
+            "fc": "",
+            "fs": "",
+            "id": 750,
+            "level": "11",
+            "level_index": 2,
+            "title": "初音ミクの激唱",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.5353,
+            "fc": "fcp",
+            "fs": "fs",
+            "id": 772,
+            "level": "11+",
+            "level_index": 2,
+            "title": "FREEDOM DiVE (tpz Overcute Remix)",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.9399,
+            "fc": "",
+            "fs": "",
+            "id": 738,
+            "level": "10+",
+            "level_index": 2,
+            "title": "Brain Power",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.3782,
+            "fc": "",
+            "fs": "",
+            "id": 777,
+            "level": "11+",
+            "level_index": 2,
+            "title": "花と、雪と、ドラムンベース。",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.9349,
+            "fc": "",
+            "fs": "",
+            "id": 746,
+            "level": "12",
+            "level_index": 2,
+            "title": "larva",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8116,
+            "fc": "fc",
+            "fs": "",
+            "id": 768,
+            "level": "9+",
+            "level_index": 2,
+            "title": "Help me, あーりん！",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.9448,
+            "fc": "",
+            "fs": "",
+            "id": 736,
+            "level": "12",
+            "level_index": 2,
+            "title": "World Vanquisher",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.1021,
+            "fc": "fc",
+            "fs": "",
+            "id": 837,
+            "level": "7+",
+            "level_index": 1,
+            "title": "Altale",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.4855,
+            "fc": "",
+            "fs": "",
+            "id": 849,
+            "level": "8",
+            "level_index": 1,
+            "title": "Kattobi KEIKYU Rider",
+            "type": "SD"
+        },
+        {
+            "achievements": 87.814,
+            "fc": "",
+            "fs": "",
+            "id": 793,
+            "level": "11",
+            "level_index": 3,
+            "title": "ロキ",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.5405,
+            "fc": "",
+            "fs": "",
+            "id": 829,
+            "level": "12+",
+            "level_index": 3,
+            "title": "敗北の少年",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.5521,
+            "fc": "",
+            "fs": "",
+            "id": 806,
+            "level": "11",
+            "level_index": 3,
+            "title": "ナイトメア☆パーティーナイト",
+            "type": "SD"
+        },
+        {
+            "achievements": 57.0891,
+            "fc": "",
+            "fs": "",
+            "id": 844,
+            "level": "14",
+            "level_index": 3,
+            "title": "End Time",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3228,
+            "fc": "",
+            "fs": "",
+            "id": 800,
+            "level": "12+",
+            "level_index": 3,
+            "title": "EVERGREEN",
+            "type": "SD"
+        },
+        {
+            "achievements": 92.2363,
+            "fc": "",
+            "fs": "",
+            "id": 799,
+            "level": "14+",
+            "level_index": 3,
+            "title": "QZKago Requiem",
+            "type": "SD"
+        },
+        {
+            "achievements": 95.2658,
+            "fc": "",
+            "fs": "",
+            "id": 822,
+            "level": "11+",
+            "level_index": 3,
+            "title": "イロトリドリのメロディ",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.5021,
+            "fc": "",
+            "fs": "",
+            "id": 793,
+            "level": "13",
+            "level_index": 4,
+            "title": "ロキ",
+            "type": "SD"
+        },
+        {
+            "achievements": 87.1034,
+            "fc": "",
+            "fs": "",
+            "id": 834,
+            "level": "15",
+            "level_index": 4,
+            "title": "PANDORA PARADOXXX",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.5303,
+            "fc": "fc",
+            "fs": "",
+            "id": 793,
+            "level": "9+",
+            "level_index": 2,
+            "title": "ロキ",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.0864,
+            "fc": "fc",
+            "fs": "",
+            "id": 829,
+            "level": "10+",
+            "level_index": 2,
+            "title": "敗北の少年",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.5499,
+            "fc": "",
+            "fs": "",
+            "id": 840,
+            "level": "11",
+            "level_index": 2,
+            "title": "Imperishable Night 2006 (2016 Refine)",
+            "type": "SD"
+        },
+        {
+            "achievements": 100.4931,
+            "fc": "fc",
+            "fs": "",
+            "id": 844,
+            "level": "11+",
+            "level_index": 2,
+            "title": "End Time",
+            "type": "SD"
+        },
+        {
+            "achievements": 93.2818,
+            "fc": "",
+            "fs": "",
+            "id": 850,
+            "level": "11",
+            "level_index": 2,
+            "title": "B.M.S.",
+            "type": "SD"
+        },
+        {
+            "achievements": 97.7166,
+            "fc": "",
+            "fs": "",
+            "id": 848,
+            "level": "11",
+            "level_index": 2,
+            "title": "魔法少女になるしかねぇ",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.6292,
+            "fc": "",
+            "fs": "",
+            "id": 812,
+            "level": "12",
+            "level_index": 2,
+            "title": "Alea jacta est!",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3551,
+            "fc": "",
+            "fs": "",
+            "id": 799,
+            "level": "12",
+            "level_index": 2,
+            "title": "QZKago Requiem",
+            "type": "SD"
+        },
+        {
+            "achievements": 96.2728,
+            "fc": "",
+            "fs": "",
+            "id": 820,
+            "level": "12",
+            "level_index": 2,
+            "title": "FFT",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.3374,
+            "fc": "",
+            "fs": "",
+            "id": 825,
+            "level": "11+",
+            "level_index": 2,
+            "title": "雷切-RAIKIRI-",
+            "type": "SD"
+        },
+        {
+            "achievements": 98.8444,
+            "fc": "",
+            "fs": "",
+            "id": 803,
+            "level": "11+",
+            "level_index": 2,
+            "title": "Schwarzschild",
+            "type": "SD"
+        }
+    ]
+}
