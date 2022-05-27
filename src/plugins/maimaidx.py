@@ -449,9 +449,26 @@ async def _(bot: Bot, event: Event, state: T_State):
             s += f'忌 {wm_list[i]}\n'
     s += "今日推荐歌曲："
     music = total_list[h % len(total_list)]
-    await jrwm.finish(Message([
+    await jrwm.send(Message([
         {"type": "text", "data": {"text": s}}
     ] + song_txt(music)))
+    randnum = random.randint(100001,101973)
+    card_dir = r"E:\card"
+    try:
+        img = Image.open(f"{card_dir}/UI_Card_{randnum}.jpg").convert('RGBA')
+    except Exception:
+        img = Image.open(f"{card_dir}/UI_Card_{(randnum+1)%101974 + 100001}.jpg").convert('RGBA')
+    file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
+    await jrwm.finish(Message([
+    {"type": "text", "data": {"text": "今日音击抽卡："}},
+        {
+            "type": "image",
+            "data": {
+                "file": file
+            }
+        }
+    ]))
+    await jrwm.send()
     
     
 myscore = on_command("!查分", aliases={'!me','！me','！查分'})

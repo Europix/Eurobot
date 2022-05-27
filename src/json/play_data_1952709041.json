@@ -251,8 +251,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.5026,
-            "fc": "",
+            "achievements": 100.5516,
+            "fc": "fc",
             "fs": "",
             "id": 11103,
             "level": "14",
@@ -4561,8 +4561,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.5064,
-            "fc": "",
+            "achievements": 100.6246,
+            "fc": "fc",
             "fs": "",
             "id": 379,
             "level": "14",
@@ -4791,7 +4791,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.572,
+            "achievements": 100.6049,
             "fc": "fc",
             "fs": "fs",
             "id": 348,
@@ -4851,7 +4851,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.5108,
+            "achievements": 100.7322,
             "fc": "fcp",
             "fs": "fs",
             "id": 365,
@@ -6291,7 +6291,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.6426,
+            "achievements": 100.6489,
             "fc": "fc",
             "fs": "",
             "id": 495,
@@ -6581,8 +6581,8 @@
             "type": "SD"
         },
         {
-            "achievements": 100.7772,
-            "fc": "fc",
+            "achievements": 100.8863,
+            "fc": "ap",
             "fs": "fs",
             "id": 283,
             "level": "13",
@@ -8171,7 +8171,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.3836,
+            "achievements": 100.5083,
             "fc": "fc",
             "fs": "",
             "id": 746,
@@ -8431,7 +8431,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.593,
+            "achievements": 100.6673,
             "fc": "fcp",
             "fs": "",
             "id": 777,
@@ -8518,6 +8518,16 @@
             "level": "12+",
             "level_index": 4,
             "title": "はやくそれになりたい！",
+            "type": "SD"
+        },
+        {
+            "achievements": 99.8642,
+            "fc": "fc",
+            "fs": "",
+            "id": 777,
+            "level": "6",
+            "level_index": 0,
+            "title": "花と、雪と、ドラムンベース。",
             "type": "SD"
         },
         {
@@ -8772,7 +8782,7 @@
         },
         {
             "achievements": 100.4239,
-            "fc": "",
+            "fc": "fc",
             "fs": "",
             "id": 812,
             "level": "14+",
@@ -9021,7 +9031,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.3249,
+            "achievements": 99.378,
             "fc": "",
             "fs": "",
             "id": 834,
@@ -9181,7 +9191,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4822,
+            "achievements": 100.6409,
             "fc": "fc",
             "fs": "",
             "id": 844,

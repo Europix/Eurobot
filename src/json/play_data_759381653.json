@@ -1591,6 +1591,16 @@
             "type": "DX"
         },
         {
+            "achievements": 99.5694,
+            "fc": "",
+            "fs": "",
+            "id": 11173,
+            "level": "13",
+            "level_index": 3,
+            "title": "トリドリ⇒モリモリ！Lovely fruits☆",
+            "type": "DX"
+        },
+        {
             "achievements": 100.8765,
             "fc": "ap",
             "fs": "fsd",
@@ -2721,7 +2731,7 @@
             "type": "DX"
         },
         {
-            "achievements": 98.8001,
+            "achievements": 98.8047,
             "fc": "",
             "fs": "",
             "id": 11106,
@@ -3011,8 +3021,8 @@
             "type": "DX"
         },
         {
-            "achievements": 100.2735,
-            "fc": "",
+            "achievements": 100.5812,
+            "fc": "fc",
             "fs": "",
             "id": 11028,
             "level": "13+",
@@ -5031,7 +5041,7 @@
             "type": "SD"
         },
         {
-            "achievements": 100.4329,
+            "achievements": 100.6022,
             "fc": "fc",
             "fs": "",
             "id": 240,
@@ -5861,7 +5871,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.6288,
+            "achievements": 99.6882,
             "fc": "",
             "fs": "",
             "id": 347,
@@ -6271,7 +6281,7 @@
             "type": "SD"
         },
         {
-            "achievements": 99.1716,
+            "achievements": 99.5669,
             "fc": "",
             "fs": "",
             "id": 387,
