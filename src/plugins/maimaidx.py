@@ -19,6 +19,8 @@ import time, datetime
 
 def song_txt(music: Music):
     file = f"https://www.diving-fish.com/covers/{music.id}.jpg"
+    img = Image.open(f"src/static/mai/cover/{music.id}.jpg").convert('RGBA')
+    file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
     if music.id == '456':
         img = Image.open(f"src/zyj/2.jpg").convert('RGBA')
         file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
@@ -74,6 +76,7 @@ def song_txt2(music:Music):
     ])
     
 music_aliases = defaultdict(list)
+anti_aliases = defaultdict(list)
 f = open('src/static/aliases.tsv', 'r', encoding='utf-8')
 tmp = f.readlines()
 f.close()
@@ -82,6 +85,7 @@ for t in tmp:
     for i in range(len(arr)):
         if arr[i] != "":
             music_aliases[arr[i].lower()].append(arr[0])
+            anti_aliases[arr[0].lower()].append(arr[i])
 
 
 inner_level = on_command('inner_level ', aliases={'!定数查歌 '})
@@ -105,11 +109,11 @@ async def _(bot: Bot, event: Event, state: T_State):
     await roll.finish("roll：" + str(int((random.random() * 100))))
 
 tietie = on_command('Eurobot 贴贴')
-white_list = ['3582509520','2567260001']
+white_list = ['3582509520','2567260001','444529099']
 @tietie.handle()
 async def _(bot: Bot, event: Event, state: T_State):
     get_qqs = event.get_user_id()
-    if(get_qqs in [ '759381653','1156078034']):
+    if(get_qqs in [ '759381653']):
         await tietie.finish("主人贴贴")
     elif get_qqs in white_list:
         await tietie.finish("贴贴qwq")
@@ -457,7 +461,7 @@ async def _(bot: Bot, event: Event, state: T_State):
     try:
         img = Image.open(f"{card_dir}/UI_Card_{randnum}.jpg").convert('RGBA')
     except Exception:
-        img = Image.open(f"{card_dir}/UI_Card_{(randnum+1)%101974 + 100001}.jpg").convert('RGBA')
+        img = Image.open(f"{card_dir}/UI_Card_{(randnum+1)%101974}.jpg").convert('RGBA')
     file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
     await jrwm.finish(Message([
     {"type": "text", "data": {"text": "今日音击抽卡："}},
@@ -868,6 +872,35 @@ async def _(bot: Bot, event: Event, state: T_State):
         await find_song.finish(f"您要找的可能是以下歌曲中的其中一首：\n{ s }")
 
 
+
+
+find_aliase = on_regex(r".+有什么别名")
+
+
+@find_aliase.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    regex = "(.+)有什么别名"
+    name = re.match(regex, str(event.get_message())).groups()[0].strip().lower()
+    s = f'{name}的别名有：\n'
+    if name in music_aliases:
+        result_set1 = music_aliases[name]
+        if len(result_set1) == 1:
+            music = total_list.by_title(result_set1[0])
+            name = music.title.lower()
+        else:
+            await find_song.finish(f"这个别名有很多歌,请用id查询\n或者你也可以试试：\n {name}是什么歌")
+            
+    #print(anti_aliases)
+    elif name not in anti_aliases:
+        await find_aliase.finish("未找到此歌曲\n可能是已经寄了")
+        return
+    result_set = anti_aliases[name]
+    s = s + ' / '.join(result_set)
+    await find_aliase.finish(s)
+
+
+
+
 query_score = on_command('分数线')
 
 
@@ -1024,29 +1057,30 @@ async def _(bot: Bot, event: Event, state: T_State):
         mstring += "\n详细赛程/小组积分查看：https://challonge.com/swjtucs\n"
     await saicheng.finish(mstring)
     
+    
 adds = on_command('!add')
-white_list2 = ['759381653','929743035']
+white_list2 = ['759381653']
 @adds.handle()
 
 async def _(bot: Bot, event: Event, state: T_State):
     qq = event.get_user_id()
     if qq not in white_list2:
         await adds.finish("?")
-    req = str(event.get_message()).strip().split(" ")  
-    print(len(req))
-    print("\n")
-    print(req[0])
-    print(req[1])
+    req = str(event.get_message()).strip().split(" ")
+    dest_song = total_list.by_id(int(req[0]))
     if(len(req) == 2):
-        with open('qwq/matches.txt','r+',encoding='utf-8') as p:
-            mlist = p.readlines()
-            linect = (int(req[0]) - 1) * 2
-            mlist[linect] = ' '.join((mlist[linect], req[1]))
-            p.close()
-        with open('qwq/matches.txt','w+',encoding='utf-8') as q:
-            q.writelines(mlist)
+        f = open('src/static/aliases_test.tsv', 'r', encoding='utf-8')
+        tmp = f.readlines()
+        for t in tmp:
+            arr = t.strip().split('\t')
+            if arr[0] == dest_song['title']:
+                t = t.append("\t")
+                t = t.append(req[1])
+        tmp2 = f.readlines()
+        with open('src/static/aliases_test.tsv','w',encoding='utf-8') as q:
+            q.writelines(tmp2)
             q.close()
         await adds.finish("收到(´-ω-`)")   
-    await adds.finish("命令错误捏\n例 !add 1 14:11")
+    await adds.finish("命令错误捏\n例 !add 11115 放弃舞萌")
     
 

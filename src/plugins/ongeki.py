@@ -17,7 +17,7 @@ async def _(bot: Bot, event: Event, state: T_State):
     regex = "音击查歌(.+)"
     name = re.match(regex, str(event.get_message())).groups()[0].strip()
     print(name)
-    with open(f'src/static/ongeki_music.json', 'r', encoding='utf-8') as ff:
+    with open(f'src/static/ongeki_music1.json', 'r', encoding='utf-8') as ff:
         play_data = json.loads(ff.read())
     index = name
     s = ''
@@ -28,7 +28,10 @@ async def _(bot: Bot, event: Event, state: T_State):
         if index.lower() in music['title'].lower():
             count = count + 1
             s = s + f"Name : {music['title']}\n"
+            s = s + f"Artist : {music['artist']}\n"
+            s = s + f"Category : {music['category']}\n"
             s = s + f'Character : {music["character"]}\n'
+            s = s + f"Release Date : {music['date']}\n"
             lnt = music['lev_lnt'] + "(Lunatic)"
             if music['lev_lnt'] == '':
                 lnt = '无Lunatic'
@@ -83,7 +86,10 @@ async def _(bot: Bot, event: Event, state: T_State):
     music = random.choice(play_data)
     s = ''
     s = s + f"Name : {music['title']}\n"
+    s = s + f"Artist : {music['artist']}\n"
+    s = s + f"Category : {music['category']}\n"
     s = s + f'Character : {music["character"]}\n'
+    s = s + f"Release Date : {music['date']}\n"
     lnt = music['lev_lnt'] + "(Lunatic)"
     if music['lev_lnt'] == '':
         lnt = '无Lunatic'
