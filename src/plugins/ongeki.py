@@ -66,7 +66,8 @@ async def _(bot: Bot, event: Event, state: T_State):
     try:
         img = Image.open(f"{card_dir}/UI_Card_{randnum}.jpg").convert('RGBA')
     except Exception:
-        img = Image.open(f"{card_dir}/UI_Card_{(randnum+1)%101974}.jpg").convert('RGBA')
+        randnum2 = random.randint(100001,101973)
+        img = Image.open(f"{card_dir}/UI_Card_{randnum2%101974}.jpg").convert('RGBA')
     file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
     await osearch_music.finish(Message([
         {

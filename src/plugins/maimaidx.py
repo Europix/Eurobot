@@ -19,8 +19,11 @@ import time, datetime
 
 def song_txt(music: Music):
     file = f"https://www.diving-fish.com/covers/{music.id}.jpg"
-    img = Image.open(f"src/static/mai/cover/{music.id}.jpg").convert('RGBA')
-    file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
+    try:
+        img = Image.open(f"src/static/mai/cover/{music.id}.jpg").convert('RGBA')
+        file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
+    except Exception as e:        
+        file = f"https://www.diving-fish.com/covers/{music.id}.jpg"
     if music.id == '456':
         img = Image.open(f"src/zyj/2.jpg").convert('RGBA')
         file = f"base64://{str(image_to_base64(img), encoding='utf-8')}"
@@ -1067,16 +1070,19 @@ async def _(bot: Bot, event: Event, state: T_State):
     if qq not in white_list2:
         await adds.finish("?")
     req = str(event.get_message()).strip().split(" ")
-    dest_song = total_list.by_id(int(req[0]))
+    dest_song = total_list.by_id(req[0])
+    tmp2 = ''
     if(len(req) == 2):
         f = open('src/static/aliases_test.tsv', 'r', encoding='utf-8')
         tmp = f.readlines()
         for t in tmp:
             arr = t.strip().split('\t')
-            if arr[0] == dest_song['title']:
-                t = t.append("\t")
-                t = t.append(req[1])
-        tmp2 = f.readlines()
+            if arr[0] == dest_song.title:
+                t = t.replace('\n','')
+                t = t + "\t" + req[1] + '\n'
+                print(t)
+            tmp2 = tmp2 + t
+        f.close()
         with open('src/static/aliases_test.tsv','w',encoding='utf-8') as q:
             q.writelines(tmp2)
             q.close()
