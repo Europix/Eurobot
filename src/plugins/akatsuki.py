@@ -31,8 +31,12 @@ def full(mode, bpitem, ID, module):
 
     url = 'http://akatsuki.pw/api/v1/users/scores/' + module + '?mode=0&p=' + str(page) + '&l=100&rx=1&id=' + str(ID)
     url2 = 'https://akatsuki.pw/api/v1/users/full?id=' + str(ID)
-    r = requests.get(url)
-    r2 = requests.get(url2)
+    try:
+        r = requests.get(url ,timeout = 50)
+        r2 = requests.get(url2 , timeout = 50)
+    except Exception as e:
+        print(e)
+        return ("获取api超时，这破网站看脸，要么再来一次？")
     result = json.loads(r.text)
     result2 = json.loads(r2.text)
     scores = result['scores']
@@ -311,7 +315,10 @@ async def _(bot: Bot, event: Event, state: T_State):
     if len(argv) != 2:
         await command_rbp.finish("指令有误，需要2个参数 <bp*> <userid> 哦！\n 例如 !rbp 1000 4396")
     y = full('Relax', int(argv[0]), int(argv[1]), 'best')
-    img = Image.open("result.png").convert('RGBA')
+    try:
+        img = Image.open("result.png").convert('RGBA')
+    except Exception:
+        await command_rbp.finish("看起来像是获取失败了哦")
     await command_rbp.finish([{
             "type": "image",
             "data": {

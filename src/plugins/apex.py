@@ -15,6 +15,7 @@ apex_map = on_command("!map",aliases = {"地图轮换"})
 @apex_map.handle()
 async def _(bot: Bot, event: Event, state: T_State):
     URL = f"https://api.mozambiquehe.re/maprotation?auth=979d0a73104cc447ebf3cd264030a319"
+     # 唉 这api真的烂透了 三四次成功一次 这key还是偷的别人的 像弱智 能用用用不了拉倒
     try:
         res = requests.get(URL, timeout = 50)
     except Exception as e:
