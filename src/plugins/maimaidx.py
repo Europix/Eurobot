@@ -16,8 +16,6 @@ from src.zyj import *
 import re
 import time, datetime
 
-import math # 安慰分计算需要取整操作，导入math模块 RubikZero 2022-8-1 #
-
 
 def song_txt(music: Music):
     file = f"https://www.diving-fish.com/covers/{music.id}.jpg"
@@ -349,39 +347,8 @@ async def _(bot: Bot, event: Event, state: T_State):
                 }
         }]))     
 
-# RubikZero 2022-8-1 #
-def ComfortingScore(level):
-    rate = level*13.5 # 当前版本SSS的倍率为13.5，如果版本更新改变分数计算方式，需要修改此常数 #
-    next = math.ceil(rate)
-    score = next/rate*100
-    if(score < 100.5):
-        score = math.ceil(score*10000)/10000
-        return score, next
-    else:
-        return 0, 0
 
-anweifen = on_regex(r"安慰分\s*.+")
-@anweifen.handle()
-async def _(bot: Bot, event: Event, state: T_State):
-    regex = "安慰分\s*(.+)"
-    level_str = re.match(regex, str(event.get_message())).group(1)
-    try:
-        level = float(level_str)
-    except:
-        level = 0
 
-    # 防止浮点误差 #
-    level = round(level*10)/10
-
-    # 如果出现了定数小于1或大于15的歌，需要修改此边界条件 #
-    if(level < 1 or level > 15):
-        await anweifen.finish("没有定数是"+level_str+"的歌")
-
-    score, rating = ComfortingScore(level)
-    if(score <= 0):
-        await anweifen.finish("这个定数没有安慰分，努力SSS+吧")
-    
-    await anweifen.finish("定数为" + str(level) + "时，完成率达到" + str(score) + "就可以吃" + str(rating) + "分啦")
  
 shangfen = on_regex(r"我想吃[0-9]+分")        
         
