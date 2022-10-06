@@ -289,6 +289,7 @@ def rrc(bpitem, ID):
     return y
 
 
+
 command_rrc = on_command("!rrc")
 
 
@@ -369,3 +370,50 @@ async def _(bot: Bot, event: Event, state: T_State):
         else:
             item += 1
     await command_todaybp.finish(f)
+
+def firstcount(ID):
+	url = 'https://akatsuki.pw/api/v1/users/scores/first?mode=0&p=1&l=100&rx=1&id=' + str(ID)
+	url2 = 'https://akatsuki.pw/api/v1/users/full?id=' + str(ID)
+	r = requests.get(url)
+	r2 = requests.get(url2)
+	result = json.loads(r.text)
+	result2 = json.loads(r2.text)
+	totalcount = result['total']
+	name = result2['username']
+	if totalcount > 0:
+		msg = '玩家 ' + name + ' 在 Akatsuki 服 RX 模式下目前有 ' + str(totalcount) + ' 个 #1'
+	else:
+		msg = '玩家 ' + name + ' 在 Akatsuki 服 RX 模式下目前没有 #1，继续努力吧少年'
+	return msg
+
+command_first = on_command("!first")
+
+@command_first.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    argv = str(event.get_message()).strip().split(" ")
+    if len(argv) != 1:
+        await command_rbp.finish("指令有误，需要1个参数 <userid> 哦！\n 例如 !first 4396")
+    f = firstcount(argv[0])
+    await command_first.finish(f)
+    
+def search_user(username):
+	url = 'https://akatsuki.pw/api/v1/users/whatid?name=' + str(username)
+	r = requests.get(url)
+	result = json.loads(r.text)
+	code_num = result['code']
+	if code_num == 404:
+		msg = '没有符合查找条件的用户！'
+		return msg
+	elif code_num == 200:
+		id = result['id']
+		msg = '用户 ' + str(username) + ' 的 ID 为 ' + str(id)
+		return msg
+        
+command_name = on_command("!name")
+
+@command_name.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    argv = str(event.get_message()).strip().split(" ", 0)
+    print(argv)
+    id = search_user(argv[0])
+    await command_name.finish(id)

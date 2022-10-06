@@ -1,5 +1,5 @@
 import json
-import aiorequests
+import requests
 import io
 import os
 import base64
