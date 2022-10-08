@@ -629,16 +629,16 @@ async def _(bot: Bot, event: Event, state: T_State):
 keti = on_command("课题",aliases={'本期课题'})
 @keti.handle()
 async def _(bot: Bot, event: Event, state: T_State):
-    anstring = '本周TZ战队课题（9月9日更新）：\n'
-    ketiqu = total_list.by_id('252')
+    anstring = '本周TZ战队课题（10月7日更新）：\n'
+    ketiqu = total_list.by_id('680')
     anstring += song_txt2(ketiqu)
     anstring += f"\n（紫谱）定数: {ketiqu['ds'][3]}\n"
-    ketiqu2 = total_list.by_id('665')
+    ketiqu2 = total_list.by_id('471')
     anstring += song_txt2(ketiqu2)
-    anstring += f"\n（紫谱）定数: {ketiqu['ds'][3]}"
-    await keti.send(anstring)
-    achistr = "课题:\n桃子极：合计达成率201%\n桃子极+：合计达成率201.4%\n桃子将：在极的基础上，非p总和<=20 或有一首歌非p数<=6\n桃子将+：在极+基础上，非p总和<=10 或有一首歌非p数<=3\n桃子神：将+基础上 绝赞大p个数总和>=157\n冤有头债有主：金杯"
-    await keti.finish(achistr)
+    anstring += f"\n（紫谱）定数: {ketiqu2['ds'][3]}"
+    achistr = "课题:\n桃子极：合计达成率200%\n桃子极+：合计达成率201.4%\n桃子将：在极的基础上，非p总和小于等于17\n桃子将+：在极+基础上，非p总和小于等于8\n桃子神：DX分数大于等于3970/合计达成率201.87%/非p总数小于等于3个(三选二)"
+    await keti.send(achistr)
+    await keti.finish(anstring)
 query_chart = on_regex(r"^([绿黄红紫白]?)id([0-9]+)")
 
 
@@ -1279,7 +1279,7 @@ chi = on_regex(r".*今天.*吃什么")
 async def _(bot: Bot, event: Event, state: T_State):
     await chi.finish(random.choice(cf_list))
 
-shi = on_regex(r"^[石,凯,财,风] .+")
+shi = on_regex(r"^[石,凯,终,风] .+")
 
 
 @shi.handle()

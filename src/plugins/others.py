@@ -176,3 +176,6 @@ async def _(bot: Bot, event: Event, state: T_State):
     img.save(b_io, format="JPEG")
     base64_str = 'base64://' + base64.b64encode(b_io.getvalue()).decode()
     await yiqing.send(msg)
+    
+    analysis_stat = {}  # analysis_stat: video_url(vurl)
+
