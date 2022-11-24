@@ -32,7 +32,7 @@ async def _(bot: Bot, event: Event, state: T_State):
     time = "剩余时间：" + timeleft
     rankscore = "下一个地图：" + prankscore
     rankname = "结束于：" + prankname + "( UTC+0 )"
-
+    file = jsonobj['current']['asset']
     info=(name,level,time,rankscore,rankname)
 
     await apex_map.finish(Message([
@@ -45,7 +45,7 @@ async def _(bot: Bot, event: Event, state: T_State):
         {
             "type": "image",
             "data": {
-                "file": jsonobj['current']['asset']
+                "file": file
             }
         }
         ]))
@@ -54,20 +54,44 @@ async def _(bot: Bot, event: Event, state: T_State):
 apex_player = on_command("!player",aliases = {"!apex查分"})
 
 @apex_player.handle()
-async def _(bot: Bot, event: Event, state: T_State):                
-    apex = ApexLegends("f4cba3f7-84c5-4ad2-81f9-84fb55d0706d")
-    headers = { 'TRN-Api-Key':'Eurobot'}
-    URL = "https://apex.tracker.gg/api"
-    res = requests.get(URL, headers, timeout = 30)
-    player = apex.player('NRG_dizzy')
-
-    print(player)
-
-    for legend in player.legends:
-        print(legend.legend_name)
-        print(legend.icon)
-        print(legend.damage)
+async def _(bot: Bot, event: Event, state: T_State):
+    auth = '979d0a73104cc447ebf3cd264030a319'
+    req = str(event.get_message()).strip().split(" ")
+    player = str(req[0])
+    platform = 'PC'
+    try:
+        solve = (requests.get(f"https://api.mozambiquehe.re/bridge?auth={auth}&player={player}&platform={platform}")).json()
+        #r = requests.get(f"https://api.mozambiquehe.re/maprotation?auth=a51818179a68b3c2f14e989fffe9c4ec")
+        #jsonobj = json.loads(r.text)
         
-        
+        if "Error" not in solve.keys():
+                # 几组玩家参数
+                player_name = f'玩家：{solve["global"]["name"]}'
+                player_level = f'等级：{solve["global"]["level"]}'
+                player_rank = f'段位：{solve["global"]["rank"]["rankName"]}{solve["global"]["rank"]["rankDiv"]} ('\
+                              f'{solve["global"]["rank"]["rankScore"]}) '
+                player_rank_icon = f'{solve["global"]["rank"]["rankImg"]}'
+                player_player = f'{solve["legends"]["selected"]["LegendName"]}'
+                player_player_icon = f'{solve["legends"]["selected"]["ImgAssets"]["icon"]}'
+                #print(player_name,player_player,player_rank)
+
+        info = (player_name, player_level, player_rank)
+    except Exception:
+        await apex_player.finish("获取数据失败！请检查一下id的输入：\n1.目前只支持Origin的ID，请勿用SteamID\n2.目前只支持PC端，其他平台暂时懒得做\n3.api可能获取失败，如果输入没有问题重试一下？")
+    print('\n'.join(info))
+    await apex_player.finish(Message([
+        {
+            "type": "text",
+                "data": {
+                    "text": '\n'.join(info)
+                }
+        },
+        {
+            "type": "image",
+            "data": {
+                "file": player_rank_icon
+            }
+        }
+        ]))    
         
         
