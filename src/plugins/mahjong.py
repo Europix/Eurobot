@@ -4,6 +4,7 @@ import pandas as pd
 # f = open('tz.csv', 'w', encoding='utf-8')
 
 
+from src.libraries.image import *
 from tinydb import TinyDB
 from tinydb import where
 from tinydb import Query
@@ -42,13 +43,17 @@ def info(id):
     for i in db.all():
         if i['dan'] > dan:
             count = count + 1
-        if i['dan'] == dan and i['prog']> prog:
+        if i['dan'] == dan and int(i['prog']) > int(prog):
             count = count + 1
+    if int(an['cnt']) != 0:
+        avg = int(an['avg']) / int(an['cnt'])
+    else:
+        avg= -1
     return Message([
                 {
                     "type": "text",
                     "data": {
-                        "text": f"玩家 {an['id']} 数据:\n段位： {num_dan[an['dan']]} ({an['prog']}/{dan_num[an['dan']]})\n最近顺位：{an['sw']}\n交大内排名：{count}"
+                        "text": f"玩家 {an['id']} 数据:\n段位： {num_dan[an['dan']]} ({an['prog']}/{dan_num[an['dan']]})\n最近顺位：{an['sw']}\n半庄数：{an['cnt']} / 平均得点:{avg}\n交大内排名：{count}"
                     }
                 }
             ])
@@ -57,7 +62,31 @@ def find_byid(id):
     if an:
         return 1
     return -1
-
+def find_byqq(qq):
+    an = db.search(where('qq') == str(qq))
+    if an:
+        return an[0]['id']
+    return -1
+leaderboard = on_command("!公式排行榜")
+@leaderboard.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    all = db.all()
+    count = 1
+    f = ""
+    def comp(x):
+        return x['dan'], int(x['prog'])
+    all.sort(key=comp, reverse=True)
+    for player in all:
+        if player['dan'] >= 0:
+            f = f + f"#{count}: ({num_dan[player['dan']]}) {player['id']} ({player['prog']}/{dan_num[player['dan']]})\n"
+            f = f + f"\n\n\n\n\n\n"
+            count = count + 1
+    await leaderboard.finish(Message([{
+            "type": "image",
+            "data": {
+                "file": f"base64://{str(image_to_base64(text_to_image(f)), encoding='utf-8')}"
+                }
+        }]))
 find_info = on_command("!吃鱼")
 @find_info.handle()
 async def _(bot: Bot, event: Event, state: T_State):
@@ -66,7 +95,6 @@ async def _(bot: Bot, event: Event, state: T_State):
         await find_info.finish("未找到此玩家捏")
     else:
         await find_info.finish(info(argvs[0]))
-
 initial = on_command("!交大公式战注册")
 @initial.handle()
 async def _(bot: Bot, event: Event, state: T_State):
@@ -111,7 +139,9 @@ async def _(bot: Bot, event: Event, state: T_State):
         await upload.finish("数据有误：三位分比四位低")
     if int(r2[1])+int(r3[1])+int(r1[1])+int(r4[1]) != 100000:
         await upload.finish("数据有误：总分不为100000")
+    # print(ans)
     await upload.send(ans)
+
     upf = ""
     #一位存分
     an = db.search(where('id') == r1[0])[0]
@@ -119,6 +149,10 @@ async def _(bot: Bot, event: Event, state: T_State):
     prog = an['prog']
     sw = an['sw']
     db.update({'sw': (sw*10+1)%10000000}, a.id == r1[0])
+    cnt = an['cnt']
+    avg = an['avg']
+    db.update({'avg': int(avg) + int(int(r1[1])/1000+5)}, a.id == r1[0])
+    db.update({'cnt': cnt+1}, a.id == r1[0])
     #升段
     if  int(int(r1[1])/1000+5) +  int(prog) >=  int(dan_num[dan]):
         db.update({'dan': dan+1}, a.id == r1[0])
@@ -132,7 +166,11 @@ async def _(bot: Bot, event: Event, state: T_State):
     dan = an['dan']
     prog = an['prog']
     sw = an['sw']
+    cnt = an['cnt']
+    avg = an['avg']
     db.update({'sw': (sw * 10 + 2) % 10000000}, a.id == r2[0])
+    db.update({'avg': int(avg) + int(int(r2[1]) / 1000 -15)}, a.id == r2[0])
+    db.update({'cnt': cnt + 1}, a.id == r2[0])
     #升段
     if int(int(r2[1])/1000-15) + int(prog) >= int(dan_num[dan]):
         db.update({'dan': dan+1}, a.id == r2[0])
@@ -146,48 +184,54 @@ async def _(bot: Bot, event: Event, state: T_State):
     dan = an['dan']
     prog = an['prog']
     sw = an['sw']
+    cnt = an['cnt']
+    avg = an['avg']
+    db.update({'avg': int(avg) + int(int(r3[1]) / 1000 -35)}, a.id == r3[0])
     db.update({'sw': (sw * 10 + 3) % 10000000}, a.id == r3[0])
+    db.update({'cnt': cnt + 1}, a.id == r3[0])
     #升段
-    if  int(int(r3[1])/1000-35) +  int(prog) >=  int(dan_num[dan]):
-        db.update({'dan': dan+1}, a.id == r3[0])
-        db.update({'prog': ini[dan+1]}, a.id == r3[0])
-        upf = upf + f"恭喜{r3[0]}升段！ ({num_dan[dan]} -> {num_dan[dan + 1]})\n"
+    #if  int(int(r3[1])/1000-35) +  int(prog) >=  int(dan_num[dan]):
+    #    db.update({'dan': dan+1}, a.id == r3[0])
+    #   db.update({'prog': ini[dan+1]}, a.id == r3[0])
+    #   upf = upf + f"恭喜{r3[0]}升段！ ({num_dan[dan]} -> {num_dan[dan + 1]})\n"
     #掉段 (新人 1级 初段不掉段—
-    elif  int(int(r3[1]))/1000-35 + int(prog) < 0:
-        if dan == 0 or dan == 1:
-            upf = upf + f"{r3[0]}({num_dan[dan]}) 有三位保护机制，不掉分\n"
-        if dan == 2:
-            db.update({'prog': 0}, a.id == r3[0])
-            upf = upf + f"{r3[0]}({num_dan[dan]}) 有段位保护机制，不掉段\n"
-        if dan>2:
-            db.update({'dan': dan - 1}, a.id == r3[0])
-            db.update({'prog': ini[dan-1]}, a.id == r3[0])
-            upf = upf + f"恭喜{r3[0]}掉段！ ({num_dan[dan]} -> {num_dan[dan -1]})\n"
+    if dan == 0 or dan == 1:
+        upf = upf + f"{r3[0]}({num_dan[dan]}) 有三位保护机制，不掉分\n"
     else:
-        db.update({'prog':  (int(prog) + int(r3[1])/1000-35)}, a.id == r3[0])
-        upf = upf + f"{r3[0]} ({num_dan[dan]}): {prog}({ (int(r3[1]))/1000-35})/{dan_num[dan]}\n"
+        if int(int(r3[1]))/1000-35 + int(prog) < 0:
+            if dan > 2:
+                db.update({'dan': dan - 1}, a.id == r3[0])
+                db.update({'prog': ini[dan - 1]}, a.id == r3[0])
+                upf = upf + f"恭喜{r3[0]}掉段！ ({num_dan[dan]} -> {num_dan[dan - 1]})\n"
+            else:
+                db.update({'prog': 0}, a.id == r3[0])
+                upf = upf + f"{r3[0]}({num_dan[dan]}) 有段位保护机制，不掉段\n"
+        else:
+            db.update({'prog':  (int(prog) + int(r3[1])/1000-35)}, a.id == r3[0])
+            upf = upf + f"{r3[0]} ({num_dan[dan]}): {prog}({ (int(r3[1]))/1000-35})/{dan_num[dan]}\n"
 # 四位存分
     an = db.search(where('id') == r4[0])[0]
     dan = an['dan']
     prog = an['prog']
     sw = an['sw']
+    cnt = an['cnt']
+    avg = an['avg']
+    db.update({'avg': int(avg) + int(int(r4[1]) / 1000 - 55)}, a.id == r4[0])
     db.update({'sw': (sw * 10 + 4) % 10000000}, a.id == r4[0])
-    #掉段 (新人 1级 初段不掉段—
-    if  int(int(r4[1])/1000 - 55) +  int(prog) < 0:
-        if dan>2:
-            db.update({'dan': dan - 1}, a.id == r4[0])
-            db.update({'prog': ini[dan-1]}, a.id == r4[0])
-            upf = upf + f"恭喜{r4[0]}掉段！ ({num_dan[dan]} -> {num_dan[dan - 1]})\n"
-        else:
-            db.update({'prog': 0}, a.id == r4[0])
-            upf = upf + f"{r4[0]}({num_dan[dan]}) 有段位保护机制，不掉段\n"
-    #新人 1级 不掉分
+    db.update({'cnt': cnt + 1}, a.id == r4[0])
+    if dan == 0 or dan == 1:
+        upf = upf + f"{r4[0]}({num_dan[dan]}) 有四位保护机制，不掉分\n"
     else:
-        if dan == 0 or dan == 1:
-            upf = upf + f"{r4[0]}({num_dan[dan]}) 有四位保护机制，不掉分\n"
-            pass
+        if int(int(r4[1]) / 1000 - 55) + int(prog) < 0:
+            if dan > 2:
+                db.update({'dan': dan - 1}, a.id == r4[0])
+                db.update({'prog': ini[dan - 1]}, a.id == r4[0])
+                upf = upf + f"恭喜{r4[0]}掉段！ ({num_dan[dan]} -> {num_dan[dan - 1]})\n"
+            else:
+                db.update({'prog': 0}, a.id == r4[0])
+                upf = upf + f"{r4[0]}({num_dan[dan]}) 有段位保护机制，不掉段\n"
         else:
-            db.update({'prog':  int(prog) + int(int(r4[1])/1000-55)}, a.id == r4[0])
-            upf = upf + f"{r4[0]} ({num_dan[dan]}): {prog}({ (int(r4[1])) / 1000 -55})/{dan_num[dan]}\n"
+            db.update({'prog': int(prog) + int(int(r4[1]) / 1000 - 55)}, a.id == r4[0])
+            upf = upf + f"{r4[0]} ({num_dan[dan]}): {prog}({(int(r4[1])) / 1000 - 55})/{dan_num[dan]}\n"
     await upload.finish(upf)
 # self_info = on_command("查询战队点数")
